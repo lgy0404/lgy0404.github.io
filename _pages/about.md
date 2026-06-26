@@ -227,7 +227,7 @@ I aim to build **reliable mobile agents** that can connect language, vision, mem
       <li>Introduces Context-as-Action (ConAct), making history folding, UI memory, and step self-description first-class policy actions.</li>
       <li>Builds MemGUI-3K with 2,956 fully annotated trajectories and achieves strong long-horizon results on MemGUI-Bench and MobileWorld.</li>
     </ul>
-    <div class="paper-card__links"><a href="https://memgui-agent.github.io/">Project</a> · <a href="https://arxiv.org/abs/2606.19926">Paper</a> · <a href="https://github.com/kwai/MemGUI-Agent"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/kwai/MemGUI-Agent?style=flat-square&logo=github&logoColor=black&labelColor=white&color=white&label=Stars&cacheSeconds=10" style="border: 1px solid #ccc; border-radius: 4px;"></a></div>
+    <div class="paper-card__links"><a href="https://github.com/kwai/MemGUI-Agent"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/kwai/MemGUI-Agent?style=flat-square&logo=github&logoColor=black&labelColor=white&color=white&label=Stars&cacheSeconds=10" style="border: 1px solid #ccc; border-radius: 4px;"></a></div>
   </div>
 </div>
 
@@ -247,7 +247,7 @@ I aim to build **reliable mobile agents** that can connect language, vision, mem
       <li>Proposes MobileGym and HiFPO to connect target-app exploration, curriculum mining, rollout feedback, and policy optimization.</li>
       <li>Improves both generalist and GUI-specialized agents; ForgeOwl-8B reaches 77.6% Pass@3 on AndroidWorld and 41.0% on MobileWorld GUI-only.</li>
     </ul>
-    <div class="paper-card__links"><a href="https://mobile-forge.github.io/">Project</a> · <a href="https://arxiv.org/abs/2606.19930">Paper</a> · <a href="https://github.com/kwai/MobileForge"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/kwai/MobileForge?style=flat-square&logo=github&logoColor=black&labelColor=white&color=white&label=Stars&cacheSeconds=10" style="border: 1px solid #ccc; border-radius: 4px;"></a></div>
+    <div class="paper-card__links"><a href="https://github.com/kwai/MobileForge"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/kwai/MobileForge?style=flat-square&logo=github&logoColor=black&labelColor=white&color=white&label=Stars&cacheSeconds=10" style="border: 1px solid #ccc; border-radius: 4px;"></a></div>
   </div>
 </div>
 
@@ -267,7 +267,7 @@ I aim to build **reliable mobile agents** that can connect language, vision, mem
       <li>Builds a memory-centric benchmark with 128 tasks across 26 apps, where 89.8% challenge memory through cross-temporal and cross-spatial retention.</li>
       <li>Introduces MemGUI-Eval and reveals substantial memory gaps across 11 mobile GUI agents.</li>
     </ul>
-    <div class="paper-card__links"><a href="https://lgy0404.github.io/MemGUI-Bench/">Project</a> · <a href="https://arxiv.org/abs/2602.06075">Paper</a> · <a href="https://github.com/lgy0404/MemGUI-Bench"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/lgy0404/MemGUI-Bench?style=flat-square&logo=github&logoColor=black&labelColor=white&color=white&label=Stars&cacheSeconds=10" style="border: 1px solid #ccc; border-radius: 4px;"></a> <a href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17604234699666112827,6880181861836555417"><img alt="Google Scholar citations" src="https://img.shields.io/badge/Citations-11-white?logo=Google%20Scholar&style=flat-square&labelColor=white&cacheSeconds=10" style="border: 1px solid #ccc; border-radius: 4px;"></a></div>
+    <div class="paper-card__links"><a href="https://github.com/lgy0404/MemGUI-Bench"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/lgy0404/MemGUI-Bench?style=flat-square&logo=github&logoColor=black&labelColor=white&color=white&label=Stars&cacheSeconds=10" style="border: 1px solid #ccc; border-radius: 4px;"></a> <a href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17604234699666112827,6880181861836555417"><img alt="Google Scholar citations" src="https://img.shields.io/badge/Citations-11-white?logo=Google%20Scholar&style=flat-square&labelColor=white&cacheSeconds=10" style="border: 1px solid #ccc; border-radius: 4px;"></a></div>
   </div>
 </div>
 
@@ -288,7 +288,7 @@ I aim to build **reliable mobile agents** that can connect language, vision, mem
       <li>Introduces LearnGUI with 2,252 offline tasks and 101 online tasks for demonstration-based learning.</li>
       <li>Designs DemoParser, KnowSeeker, and ActExecutor to extract, retrieve, and execute with human demonstration knowledge.</li>
     </ul>
-    <div class="paper-card__links"><a href="https://lgy0404.github.io/LearnAct/">Project</a> · <a href="https://arxiv.org/abs/2504.13805">Paper</a> · <a href="https://github.com/lgy0404/LearnAct"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/lgy0404/LearnAct?style=flat-square&logo=github&logoColor=black&labelColor=white&color=white&label=Stars&cacheSeconds=10" style="border: 1px solid #ccc; border-radius: 4px;"></a> <a href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15460424372315407973"><img alt="Google Scholar citations" src="https://img.shields.io/badge/Citations-36-white?logo=Google%20Scholar&style=flat-square&labelColor=white&cacheSeconds=10" style="border: 1px solid #ccc; border-radius: 4px;"></a></div>
+    <div class="paper-card__links"><a href="https://github.com/lgy0404/LearnAct"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/lgy0404/LearnAct?style=flat-square&logo=github&logoColor=black&labelColor=white&color=white&label=Stars&cacheSeconds=10" style="border: 1px solid #ccc; border-radius: 4px;"></a> <a href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15460424372315407973"><img alt="Google Scholar citations" src="https://img.shields.io/badge/Citations-36-white?logo=Google%20Scholar&style=flat-square&labelColor=white&cacheSeconds=10" style="border: 1px solid #ccc; border-radius: 4px;"></a></div>
   </div>
 </div>
 
@@ -309,7 +309,7 @@ I aim to build **reliable mobile agents** that can connect language, vision, mem
       <li>Provides a systematic map of LLM-powered phone GUI agents, covering frameworks, models, data, evaluation, and open challenges.</li>
       <li>Clarifies how phone automation is moving from static scripts toward perception-reasoning-action agents.</li>
     </ul>
-    <div class="paper-card__links"><a href="https://arxiv.org/abs/2504.19838">Paper</a> · <a href="https://github.com/PhoneLLM/Awesome-LLM-Powered-Phone-GUI-Agents"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/PhoneLLM/Awesome-LLM-Powered-Phone-GUI-Agents?style=flat-square&logo=github&logoColor=black&labelColor=white&color=white&label=Stars&cacheSeconds=10" style="border: 1px solid #ccc; border-radius: 4px;"></a> <a href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6050737529106194091,847899513706501378"><img alt="Google Scholar citations" src="https://img.shields.io/badge/Citations-60-white?logo=Google%20Scholar&style=flat-square&labelColor=white&cacheSeconds=10" style="border: 1px solid #ccc; border-radius: 4px;"></a></div>
+    <div class="paper-card__links"><a href="https://github.com/PhoneLLM/Awesome-LLM-Powered-Phone-GUI-Agents"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/PhoneLLM/Awesome-LLM-Powered-Phone-GUI-Agents?style=flat-square&logo=github&logoColor=black&labelColor=white&color=white&label=Stars&cacheSeconds=10" style="border: 1px solid #ccc; border-radius: 4px;"></a> <a href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6050737529106194091,847899513706501378"><img alt="Google Scholar citations" src="https://img.shields.io/badge/Citations-60-white?logo=Google%20Scholar&style=flat-square&labelColor=white&cacheSeconds=10" style="border: 1px solid #ccc; border-radius: 4px;"></a></div>
   </div>
 </div>
 
