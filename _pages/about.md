@@ -371,6 +371,11 @@ I aim to build **reliable mobile agents** that can connect language, vision, mem
 - Silver Medal, China International "Internet+" Innovation and Entrepreneurship Competition.
 - National Scholarship, 2020 and 2021.
 
+# 🎓 Academic Service
+
+- **Reviewer (Conferences):** ICLR, NeurIPS, ICML, ECCV, ACM MM, EMNLP.
+- **Reviewer (Journals):** TMLR.
+
 <div id="footer" style="text-align: center; font-size: 0.9em; color: #666;">
   <br>
   <div class="site-traffic" style="color: #666; font-weight: 600;">
