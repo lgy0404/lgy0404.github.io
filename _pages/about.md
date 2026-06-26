@@ -47,7 +47,7 @@ redirect_from:
 
   .paper-card {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 1.5rem;
     padding: 1.25rem 0;
     border-bottom: 1px solid #ececec;
@@ -326,6 +326,47 @@ I aim to build **reliable mobile agents** that can connect language, vision, mem
     <div class="paper-card__links"><a href="https://github.com/PhoneLLM/Awesome-LLM-Powered-Phone-GUI-Agents"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/PhoneLLM/Awesome-LLM-Powered-Phone-GUI-Agents?style=flat-square&logo=github&logoColor=black&labelColor=white&color=white&label=Stars&cacheSeconds=10" style="border: 1px solid #ccc; border-radius: 4px;"></a> <a href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6050737529106194091,847899513706501378"><img alt="Google Scholar citations" src="https://img.shields.io/badge/Citations-60-white?logo=Google%20Scholar&style=flat-square&labelColor=white&cacheSeconds=10" style="border: 1px solid #ccc; border-radius: 4px;"></a></div>
   </div>
 </div>
+
+## Selected Collaborations
+
+- [**UI-R1: Enhancing Efficient Action Prediction of GUI Agents by Reinforcement Learning**](https://ojs.aaai.org/index.php/AAAI/article/view/38816) \
+<span style="font-size: 0.93em;"><img src="./images/logo-author.png" style="width: 1em; position: relative; top: -0.1em;"> Zhengxi Lu, Yuxiang Chai, Yaxuan Guo, Xi Yin, Liang Liu, Hao Wang, Han Xiao, Shuai Ren, Pengxiang Zhao, **<u>Guangyi Liu</u>**, Guanjing Xiong, and Hongsheng Li.</span>\
+<span style="font-size: 0.93em;"><img src="./images/logo-venue.png" style="width: 0.975em; position: relative; top: -0.115em;"> **AAAI 2026**</span>\
+<a href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13436621043121462425,11490050979982859007"><img alt="Google Scholar citations" src="https://img.shields.io/badge/Citations-195-white?logo=Google%20Scholar&style=flat-square&labelColor=white&cacheSeconds=10" style="border: 1px solid #ccc; border-radius: 4px;"></a>
+
+- [**A3: Android Agent Arena for Mobile GUI Agents**](https://openreview.net/forum?id=zE2tVigoub) \
+<span style="font-size: 0.93em;"><img src="./images/logo-author.png" style="width: 1em; position: relative; top: -0.1em;"> Yuxiang Chai, Shunye Tang, Han Xiao, Weifeng Lin, Liang Liu, Hanhao Li, Jiayu Zhang, Pengxiang Zhao, **<u>Guangyi Liu</u>**, Rongduo Han, Guozhi Wang, Shuai Ren, Siyuan Huang, and Hongsheng Li.</span>\
+<span style="font-size: 0.93em;"><img src="./images/logo-venue.png" style="width: 0.975em; position: relative; top: -0.115em;"> **ACL 2026 Findings**</span>\
+<a href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14530162543617210928,7058152315375786309"><img alt="Google Scholar citations" src="https://img.shields.io/badge/Citations-42-white?logo=Google%20Scholar&style=flat-square&labelColor=white&cacheSeconds=10" style="border: 1px solid #ccc; border-radius: 4px;"></a>
+
+- [**FedGUI: Benchmarking Federated GUI Agents across Heterogeneous Platforms, Devices, and Operating Systems**](https://arxiv.org/abs/2604.14956) \
+<span style="font-size: 0.93em;"><img src="./images/logo-author.png" style="width: 1em; position: relative; top: -0.1em;"> Wenhao Wang, Haoting Shi, Mengying Yuan, Yiquan Lin, Panrong Tong, Hanzhang Zhou, **<u>Guangyi Liu</u>**, Pengxiang Zhao, Yue Wang, and Siheng Chen.</span>\
+<span style="font-size: 0.93em;"><img src="./images/logo-venue.png" style="width: 0.975em; position: relative; top: -0.115em;"> **ACL 2026 Findings**</span>\
+<a href="https://github.com/wwh0411/FedGUI"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/wwh0411/FedGUI?style=flat-square&logo=github&logoColor=black&labelColor=white&color=white&label=Stars&cacheSeconds=10" style="border: 1px solid #ccc; border-radius: 4px;"></a>
+
+- [**UI-Copilot: Advancing Long-Horizon GUI Automation via Tool-Integrated Policy Optimization**](https://arxiv.org/abs/2604.13822) \
+<span style="font-size: 0.93em;"><img src="./images/logo-author.png" style="width: 1em; position: relative; top: -0.1em;"> Zhengxi Lu, Fei Tang, **<u>Guangyi Liu</u>**, Kaitao Song, Xu Tan, Jin Ma, Wenqi Zhang, Weiming Lu, Jun Xiao, Yueting Zhuang, and Yongliang Shen.</span>\
+<span style="font-size: 0.93em;"><img src="./images/logo-venue.png" style="width: 0.975em; position: relative; top: -0.115em;"> **ACL 2026 Main**</span>
+
+- [**MAS-Bench: A Unified Benchmark for Shortcut-Augmented Hybrid Mobile GUI Agents**](https://arxiv.org/abs/2509.06477) \
+<span style="font-size: 0.93em;"><img src="./images/logo-author.png" style="width: 1em; position: relative; top: -0.1em;"> Pengxiang Zhao, **<u>Guangyi Liu</u>**, Yaozhen Liang, Weiqing He, Zhengxi Lu, Yuehao Huang, Yaxuan Guo, Kexin Zhang, Hao Wang, Liang Liu, and Yong Liu.</span>\
+<span style="font-size: 0.93em;"><img src="./images/logo-venue.png" style="width: 0.975em; position: relative; top: -0.115em;"> **ACL 2026 Main**</span>\
+<a href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9453730861622247470"><img alt="Google Scholar citations" src="https://img.shields.io/badge/Citations-4-white?logo=Google%20Scholar&style=flat-square&labelColor=white&cacheSeconds=10" style="border: 1px solid #ccc; border-radius: 4px;"></a>
+
+- [**FedMABench: Benchmarking Mobile GUI Agents on Decentralized Heterogeneous User Data**](https://aclanthology.org/2025.emnlp-main.1341/) \
+<span style="font-size: 0.93em;"><img src="./images/logo-author.png" style="width: 1em; position: relative; top: -0.1em;"> Wenhao Wang, Zijie Yu, Rui Ye, Jianqing Zhang, **<u>Guangyi Liu</u>**, Liang Liu, Siheng Chen, and Yanfeng Wang.</span>\
+<span style="font-size: 0.93em;"><img src="./images/logo-venue.png" style="width: 0.975em; position: relative; top: -0.115em;"> **EMNLP 2025 Main (Oral)**</span>\
+<a href="https://github.com/wwh0411/FedMABench"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/wwh0411/FedMABench?style=flat-square&logo=github&logoColor=black&labelColor=white&color=white&label=Stars&cacheSeconds=10" style="border: 1px solid #ccc; border-radius: 4px;"></a> <a href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4859074859912844261"><img alt="Google Scholar citations" src="https://img.shields.io/badge/Citations-10-white?logo=Google%20Scholar&style=flat-square&labelColor=white&cacheSeconds=10" style="border: 1px solid #ccc; border-radius: 4px;"></a>
+
+- [**MobileA3gent: Training Mobile GUI Agents Using Decentralized Self-Sourced Data from Diverse Users**](https://aclanthology.org/2025.hcinlp-1.8/) \
+<span style="font-size: 0.93em;"><img src="./images/logo-author.png" style="width: 1em; position: relative; top: -0.1em;"> Wenhao Wang, Mengying Yuan, Zijie Yu, **<u>Guangyi Liu</u>**, Rui Ye, Tian Jin, Siheng Chen, and Yanfeng Wang.</span>\
+<span style="font-size: 0.93em;"><img src="./images/logo-venue.png" style="width: 0.975em; position: relative; top: -0.115em;"> **CFAgentic @ ICML 2025 (Oral)**</span>\
+<a href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10794877405588499537,10796259486820381126"><img alt="Google Scholar citations" src="https://img.shields.io/badge/Citations-13-white?logo=Google%20Scholar&style=flat-square&labelColor=white&cacheSeconds=10" style="border: 1px solid #ccc; border-radius: 4px;"></a>
+
+- [**Efficient HW/SW Co-design of FPGA Accelerator to Detect Anomaly Attacks in Smart Grids**](https://ieeexplore.ieee.org/abstract/document/10595763/) \
+<span style="font-size: 0.93em;"><img src="./images/logo-author.png" style="width: 1em; position: relative; top: -0.1em;"> Hongsen Liu, Lin Wang, **<u>Guangyi Liu</u>**, Yong Sun, Shizhong Li, and Wenchao Meng.</span>\
+<span style="font-size: 0.93em;"><img src="./images/logo-venue.png" style="width: 0.975em; position: relative; top: -0.115em;"> **IEEE ISIE 2024 (Oral)**</span>\
+<a href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16513972165585140029"><img alt="Google Scholar citations" src="https://img.shields.io/badge/Citations-1-white?logo=Google%20Scholar&style=flat-square&labelColor=white&cacheSeconds=10" style="border: 1px solid #ccc; border-radius: 4px;"></a>
 
 <span class='anchor' id='education'></span>
 # 📖 Education
