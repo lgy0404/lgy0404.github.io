@@ -276,7 +276,7 @@ I aim to build **reliable mobile agents** that can connect language, vision, mem
     <div class="paper-card__thumb">
       <span class="paper-card__badge paper-card__badge--venue">ACL 2026</span>
       <a href="https://arxiv.org/abs/2504.13805">
-        <img src="./images/paper-images/learnact-pipeline.png" alt="LearnAct framework">
+        <img src="./images/paper-images/learnact-teaser.png" alt="LearnAct teaser">
       </a>
     </div>
   </div>
