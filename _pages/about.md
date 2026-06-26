@@ -150,6 +150,20 @@ redirect_from:
   .edu-logo--cumt {
     height: 1.25em;
   }
+  .exp-logo {
+    width: auto;
+    height: 1.1em;
+    margin: 0 0.25em 0 0.1em;
+    vertical-align: -0.18em;
+  }
+  .exp-logo--kuaishou {
+    height: 1.2em;
+    vertical-align: -0.24em;
+  }
+  .exp-logo--vivo {
+    height: 0.85em;
+    vertical-align: -0.08em;
+  }
   @media (max-width: 900px) {
     .paper-card {
       flex-direction: column;
@@ -201,9 +215,9 @@ I aim to build **reliable mobile agents** that can connect language, vision, mem
 <span class='anchor' id='experiences'></span>
 # 💻 Experiences
 
-- 2026.08 - Present | Kuaishou Technology  
+- 2026.08 - Present | <img src="./images/logos/kuaishou-icon.png" class="exp-logo exp-logo--kuaishou" alt="Kuaishou logo"> Kuaishou Technology  
   Research Intern on mobile GUI agents, annotation-free adaptation, and long-horizon context management.
-- 2024.08 - 2025.08 | vivo AI Lab  
+- 2024.08 - 2025.08 | <img src="./images/logos/vivo-logo.svg" class="exp-logo exp-logo--vivo" alt="vivo logo"> vivo AI Lab  
   Research Intern on Phone GUI Agents, few-shot demonstration learning, online evaluation, and memory-centric benchmarking.
 - 2024.01 - 2024.05 | TruthAI  
   R&D intern on industrial large-model plugins and domain-specific model adaptation.
