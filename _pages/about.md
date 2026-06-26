@@ -219,8 +219,6 @@ I aim to build **reliable mobile agents** that can connect language, vision, mem
   Research Intern on mobile GUI agents, annotation-free adaptation, and long-horizon context management.
 - 2024.08 - 2025.08 | <img src="./images/logos/vivo-logo.svg" class="exp-logo exp-logo--vivo" alt="vivo logo"> vivo AI Lab  
   Research Intern on Phone GUI Agents, few-shot demonstration learning, online evaluation, and memory-centric benchmarking.
-- 2024.01 - 2024.05 | TruthAI  
-  R&D intern on industrial large-model plugins and domain-specific model adaptation.
 
 <span class='anchor' id='selected-work'></span>
 # 📝 Selected Work
