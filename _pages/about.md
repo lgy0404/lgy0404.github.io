@@ -217,7 +217,7 @@ I aim to build **reliable mobile agents** that can connect language, vision, mem
 <div class="paper-card">
   <div class="paper-card__image">
     <div class="paper-card__thumb">
-      <span class="paper-card__badge paper-card__badge--preprint">EMNLP 2026 Sub.</span>
+      <span class="paper-card__badge paper-card__badge--venue">Preprint</span>
       <a href="https://arxiv.org/abs/2606.19926">
         <img src="./images/paper-images/memgui-agent-teaser.png" alt="MemGUI-Agent teaser">
       </a>
@@ -226,7 +226,6 @@ I aim to build **reliable mobile agents** that can connect language, vision, mem
   <div class="paper-card__content">
     <p class="paper-card__title"><a href="https://arxiv.org/abs/2606.19926"><strong>MemGUI-Agent: An End-to-End Long-Horizon Mobile GUI Agent with Proactive Context Management</strong></a></p>
     <div class="paper-card__meta"><img src="./images/logo-author.png" style="width: 1em; position: relative; top: -0.1em;"> <strong><u>Guangyi Liu</u></strong>, Gao Wu, Congxiao Liu, Pengxiang Zhao, Liang Liu, <span class="author-more"><input type="checkbox" id="author-more-0" class="author-toggle"><label for="author-more-0" class="more-label">5 More Authors</label><label for="author-more-0" class="author-rest"> Mading Li, Zhang Qi, Mengyan Wang, Liang Guo, and Yong Liu.</label></span></div>
-    <div class="paper-card__venue"><img src="./images/logo-venue.png" style="width: 0.975em; position: relative; top: -0.115em;"> <strong>Under review at EMNLP 2026</strong></div>
     <ul class="paper-card__highlights">
       <li>Introduces Context-as-Action (ConAct), making history folding, UI memory, and step self-description first-class policy actions.</li>
       <li>Builds MemGUI-3K with 2,956 fully annotated trajectories and achieves strong long-horizon results on MemGUI-Bench and MobileWorld.</li>
@@ -238,7 +237,7 @@ I aim to build **reliable mobile agents** that can connect language, vision, mem
 <div class="paper-card">
   <div class="paper-card__image">
     <div class="paper-card__thumb">
-      <span class="paper-card__badge paper-card__badge--preprint">EMNLP 2026 Sub.</span>
+      <span class="paper-card__badge paper-card__badge--venue">Preprint</span>
       <a href="https://arxiv.org/abs/2606.19930">
         <img src="./images/paper-images/mobileforge-main-performance.png" alt="MobileForge main performance">
       </a>
@@ -247,7 +246,6 @@ I aim to build **reliable mobile agents** that can connect language, vision, mem
   <div class="paper-card__content">
     <p class="paper-card__title"><a href="https://arxiv.org/abs/2606.19930"><strong>MobileForge: Annotation-Free Adaptation for Mobile GUI Agents with Hierarchical Feedback-Guided Policy Optimization</strong></a></p>
     <div class="paper-card__meta"><img src="./images/logo-author.png" style="width: 1em; position: relative; top: -0.1em;"> <strong><u>Guangyi Liu</u></strong>, Pengxiang Zhao, Gao Wu, Yiwen Yin, Mading Li, <span class="author-more"><input type="checkbox" id="author-more-1" class="author-toggle"><label for="author-more-1" class="more-label">6 More Authors</label><label for="author-more-1" class="author-rest"> Liang Liu, Congxiao Liu, Zhang Qi, Mengyan Wang, Liang Guo, and Yong Liu.</label></span></div>
-    <div class="paper-card__venue"><img src="./images/logo-venue.png" style="width: 0.975em; position: relative; top: -0.115em;"> <strong>Under review at EMNLP 2026</strong></div>
     <ul class="paper-card__highlights">
       <li>Proposes MobileGym and HiFPO to connect target-app exploration, curriculum mining, rollout feedback, and policy optimization.</li>
       <li>Improves both generalist and GUI-specialized agents; ForgeOwl-8B reaches 77.6% Pass@3 on AndroidWorld and 41.0% on MobileWorld GUI-only.</li>
@@ -259,7 +257,7 @@ I aim to build **reliable mobile agents** that can connect language, vision, mem
 <div class="paper-card">
   <div class="paper-card__image">
     <div class="paper-card__thumb">
-      <span class="paper-card__badge paper-card__badge--preprint">MM 2026 Sub.</span>
+      <span class="paper-card__badge paper-card__badge--venue">Preprint</span>
       <a href="https://arxiv.org/abs/2602.06075">
         <img src="./images/paper-images/memgui-bench-overview.png" alt="MemGUI-Bench overview">
       </a>
@@ -268,7 +266,6 @@ I aim to build **reliable mobile agents** that can connect language, vision, mem
   <div class="paper-card__content">
     <p class="paper-card__title"><a href="https://arxiv.org/abs/2602.06075"><strong>MemGUI-Bench: Benchmarking Memory of Mobile GUI Agents in Dynamic Environments</strong></a></p>
     <div class="paper-card__meta"><img src="./images/logo-author.png" style="width: 1em; position: relative; top: -0.1em;"> <strong><u>Guangyi Liu</u></strong>, Pengxiang Zhao, Yaozhen Liang, Qinyi Luo, Shunye Tang, <span class="author-more"><input type="checkbox" id="author-more-2" class="author-toggle"><label for="author-more-2" class="more-label">10 More Authors</label><label for="author-more-2" class="author-rest"> Yuxiang Chai, Weifeng Lin, Han Xiao, WenHao Wang, Siheng Chen, Zhengxi Lu, Gao Wu, Hao Wang, Liang Liu, and Yong Liu.</label></span></div>
-    <div class="paper-card__venue"><img src="./images/logo-venue.png" style="width: 0.975em; position: relative; top: -0.115em;"> <strong>Under review at ACM MM 2026</strong></div>
     <ul class="paper-card__highlights">
       <li>Builds a memory-centric benchmark with 128 tasks across 26 apps, where 89.8% challenge memory through cross-temporal and cross-spatial retention.</li>
       <li>Introduces MemGUI-Eval and reveals substantial memory gaps across 11 mobile GUI agents.</li>
