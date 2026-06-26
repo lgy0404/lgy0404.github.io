@@ -216,7 +216,7 @@ I aim to build **reliable mobile agents** that can connect language, vision, mem
     <div class="paper-card__thumb">
       <span class="paper-card__badge paper-card__badge--venue">Preprint</span>
       <a href="https://arxiv.org/abs/2606.19926">
-        <img src="./images/paper-images/memgui-agent-teaser.png" alt="MemGUI-Agent teaser">
+        <img src="./images/paper-images/memgui-agent-conact.png" alt="MemGUI-Agent ConAct framework">
       </a>
     </div>
   </div>
