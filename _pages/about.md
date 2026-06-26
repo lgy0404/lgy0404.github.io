@@ -170,12 +170,9 @@ I am a Ph.D. student at [Zhejiang University](https://www.zju.edu.cn/), working 
 
 I was a research intern at [vivo AI Lab](https://www.vivo.com/) from 2024.08 to 2025.08, and I am a research intern at [Kuaishou Technology](https://www.kuaishou.com/) from 2026.08 to present. I received my bachelor's degree from China University of Mining and Technology in 2023 and joined Zhejiang University for graduate study in 2023 before officially becoming a Ph.D. student in 2025.09.
 
-**Links:** [Google Scholar](https://scholar.google.com/citations?user=XqQp-fkAAAAJ&hl=zh-CN) · [GitHub](https://github.com/lgy0404) · [Email](mailto:guangyiliu@zju.edu.cn)
-
 <div class="profile-stats" markdown="1">
 
-**Citations:** <a href="https://scholar.google.com/citations?user=XqQp-fkAAAAJ&hl=zh-CN"><img alt="Google Scholar citations" src="https://img.shields.io/badge/Citations-375-white?logo=Google%20Scholar&style=flat-square&labelColor=white&cacheSeconds=10"></a> <a href="https://scholar.google.com/citations?user=XqQp-fkAAAAJ&hl=zh-CN"><img alt="First-author citations" src="https://img.shields.io/badge/First--Author-107-white?logo=Google%20Scholar&style=flat-square&labelColor=white&cacheSeconds=10"></a>  
-**First-Author Stars:** <a href="https://github.com/lgy0404"><img alt="First-author project stars" src="https://img.shields.io/badge/First--Author%20Stars-582-white?logo=GitHub&style=flat-square&labelColor=white&logoColor=black&cacheSeconds=10"></a>
+**Citations:** <a href="https://scholar.google.com/citations?user=XqQp-fkAAAAJ&hl=zh-CN"><img alt="Google Scholar citations" src="https://img.shields.io/badge/Citations-375-white?logo=Google%20Scholar&style=flat-square&labelColor=white&cacheSeconds=10"></a> <a href="https://scholar.google.com/citations?user=XqQp-fkAAAAJ&hl=zh-CN"><img alt="First-author citations" src="https://img.shields.io/badge/First--Author-107-white?logo=Google%20Scholar&style=flat-square&labelColor=white&cacheSeconds=10"></a> **First-Author Stars:** <a href="https://github.com/lgy0404"><img alt="First-author project stars" src="https://img.shields.io/badge/First--Author%20Stars-582-white?logo=GitHub&style=flat-square&labelColor=white&logoColor=black&cacheSeconds=10"></a>
 
 </div>
 
