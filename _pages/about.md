@@ -135,6 +135,21 @@ redirect_from:
   .news-scroll ul {
     margin-bottom: 0;
   }
+  .profile-stats img {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 0 0.15rem 0.2rem 0;
+    vertical-align: middle;
+  }
+  .edu-logo {
+    width: auto;
+    height: 1.35em;
+    margin-right: 0.25em;
+    vertical-align: -0.22em;
+  }
+  .edu-logo--cumt {
+    height: 1.25em;
+  }
   @media (max-width: 900px) {
     .paper-card {
       flex-direction: column;
@@ -156,6 +171,13 @@ I am a Ph.D. student at [Zhejiang University](https://www.zju.edu.cn/), working 
 I was a research intern at [vivo AI Lab](https://www.vivo.com/) from 2024.08 to 2025.08, and I am a research intern at [Kuaishou Technology](https://www.kuaishou.com/) from 2026.08 to present. I received my bachelor's degree from China University of Mining and Technology in 2023 and joined Zhejiang University for graduate study in 2023 before officially becoming a Ph.D. student in 2025.09.
 
 **Links:** [Google Scholar](https://scholar.google.com/citations?user=XqQp-fkAAAAJ&hl=zh-CN) · [GitHub](https://github.com/lgy0404) · [Email](mailto:guangyiliu@zju.edu.cn)
+
+<div class="profile-stats" markdown="1">
+
+**Citations:** <a href="https://scholar.google.com/citations?user=XqQp-fkAAAAJ&hl=zh-CN"><img alt="Google Scholar citations" src="https://img.shields.io/badge/Citations-375-white?logo=Google%20Scholar&style=flat-square&labelColor=white&cacheSeconds=10"></a> <a href="https://scholar.google.com/citations?user=XqQp-fkAAAAJ&hl=zh-CN"><img alt="First-author citations" src="https://img.shields.io/badge/First--Author-107-white?logo=Google%20Scholar&style=flat-square&labelColor=white&cacheSeconds=10"></a>  
+**First-Author Stars:** <a href="https://github.com/lgy0404"><img alt="First-author project stars" src="https://img.shields.io/badge/First--Author%20Stars-582-white?logo=GitHub&style=flat-square&labelColor=white&logoColor=black&cacheSeconds=10"></a>
+
+</div>
 
 **Research Interests:**
 - **Mobile GUI Agents:** building agents that operate real phone apps through screenshots, UI state, and executable actions.
@@ -297,24 +319,14 @@ I aim to build **reliable mobile agents** that can connect language, vision, mem
   </div>
 </div>
 
-<span class='anchor' id='projects'></span>
-# 🧩 Open-Source Projects
-
-- [MemGUI-Agent](https://github.com/kwai/MemGUI-Agent): end-to-end long-horizon mobile GUI agent with proactive context management.
-- [MobileForge](https://github.com/kwai/MobileForge): annotation-free adaptation for mobile GUI agents.
-- [MemGUI-Bench](https://github.com/lgy0404/MemGUI-Bench): memory-centric benchmark and evaluation tools for mobile GUI agents.
-- [LearnAct](https://github.com/lgy0404/LearnAct): few-shot demonstration learning framework and benchmark.
-- [Awesome LLM-Powered Phone GUI Agents](https://github.com/PhoneLLM/Awesome-LLM-Powered-Phone-GUI-Agents): curated survey repository for phone GUI agents.
-- [d2l-2023](https://github.com/lgy0404/d2l-2023): study notes and educational materials.
-
 <span class='anchor' id='education'></span>
 # 📖 Education
 
-- 2025.09 - Present | Ph.D. Student, Zhejiang University, Hangzhou  
+- 2025.09 - Present | <img src="./images/logos/zju-logo-1.png" class="edu-logo" alt="Zhejiang University logo"> Ph.D. Student, Zhejiang University, Hangzhou  
   Research focus: mobile GUI agents, multimodal LLMs, agent memory, and policy adaptation.
-- 2023.06 - 2025.08 | Graduate Student, Zhejiang University, Hangzhou  
+- 2023.06 - 2025.08 | <img src="./images/logos/zju-logo-1.png" class="edu-logo" alt="Zhejiang University logo"> Graduate Student, Zhejiang University, Hangzhou  
   Research focus: LLM-powered agents and mobile GUI automation.
-- 2019.09 - 2023.06 | B.Eng. in Automatic Control, China University of Mining and Technology, Xuzhou  
+- 2019.09 - 2023.06 | <img src="./images/logos/cumt-logo.png" class="edu-logo edu-logo--cumt" alt="China University of Mining and Technology logo"> B.Eng. in Automatic Control, China University of Mining and Technology, Xuzhou  
   Ranking: No.1/203 overall; National Scholarship recipient.
 
 # 🏆 Honors & Awards

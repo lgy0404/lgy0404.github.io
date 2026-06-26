@@ -9,12 +9,8 @@ main:
   - title: "Selected Work"
     url: "/#selected-work"
 
-  - title: "Projects"
-    url: "/#projects"
-
   - title: "Experiences"
     url: "/#experiences"
 
   - title: "Education"
     url: "/#education"
-
