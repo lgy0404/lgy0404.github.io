@@ -76,6 +76,7 @@ exclude:
   - "*.sublime-workspace"
   - .asset-cache
   - .bundle
+  - .playwright-cli
   - .jekyll-assets-cache
   - .sass-cache
   - .github
@@ -93,6 +94,7 @@ exclude:
   - gulpfile.js
   - log
   - node_modules
+  - output
   - package.json
   - tmp
   - vendor
