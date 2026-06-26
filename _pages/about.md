@@ -16,6 +16,10 @@ redirect_from:
     text-decoration: none;
   }
 
+  .author__name {
+    white-space: nowrap;
+  }
+
   .author-more {
     display: inline;
   }
