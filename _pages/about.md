@@ -180,9 +180,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 # About me
 
-I am a Ph.D. student at [Zhejiang University](https://www.zju.edu.cn/), working on **mobile GUI agents**, **multimodal large language models**, and **long-horizon agent learning**. My research asks how large multimodal models can perceive mobile interfaces, reason over user goals, remember task-relevant facts, and safely complete real app workflows.
-
-I was a research intern at [vivo AI Lab](https://www.vivo.com/) from 2024.08 to 2025.08, and I am a research intern at [Kuaishou Technology](https://www.kuaishou.com/) from 2026.08 to present. I received my bachelor's degree from China University of Mining and Technology in 2023 and joined Zhejiang University for graduate study in 2023 before officially becoming a Ph.D. student in 2025.09.
+I am a Ph.D. candidate in the Department of Control Science and Engineering at Zhejiang University (ZJU), where I have been since 2023, under the supervision of Prof. Yong Liu at the April Lab.
 
 <div class="profile-stats" markdown="1">
 
@@ -365,16 +363,6 @@ I aim to build **reliable mobile agents** that can connect language, vision, mem
 <span style="font-size: 0.93em;"><img src="./images/logo-author.png" style="width: 1em; position: relative; top: -0.1em;"> Hongsen Liu, Lin Wang, **<u>Guangyi Liu</u>**, Yong Sun, Shizhong Li, and Wenchao Meng.</span>\
 <span style="font-size: 0.93em;"><img src="./images/logo-venue.png" style="width: 0.975em; position: relative; top: -0.115em;"> **IEEE ISIE 2024 (Oral)**</span>\
 <a href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16513972165585140029"><img alt="Google Scholar citations" src="https://img.shields.io/badge/Citations-1-white?logo=Google%20Scholar&style=flat-square&labelColor=white&cacheSeconds=10" style="border: 1px solid #ccc; border-radius: 4px;"></a>
-
-<span class='anchor' id='education'></span>
-# 📖 Education
-
-- 2025.09 - Present | <img src="./images/logos/zju-logo-1.png" class="edu-logo" alt="Zhejiang University logo"> Ph.D. Student, Zhejiang University, Hangzhou  
-  Research focus: mobile GUI agents, multimodal LLMs, agent memory, and policy adaptation.
-- 2023.06 - 2025.08 | <img src="./images/logos/zju-logo-1.png" class="edu-logo" alt="Zhejiang University logo"> Graduate Student, Zhejiang University, Hangzhou  
-  Research focus: LLM-powered agents and mobile GUI automation.
-- 2019.09 - 2023.06 | <img src="./images/logos/cumt-logo.png" class="edu-logo edu-logo--cumt" alt="China University of Mining and Technology logo"> B.Eng. in Automatic Control, China University of Mining and Technology, Xuzhou  
-  Ranking: No.1/203 overall; National Scholarship recipient.
 
 # 🏆 Honors & Awards
 
