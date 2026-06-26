@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-label="Guangyi Liu avatar">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0f3d7a"/>
+      <stop offset="1" stop-color="#188c89"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="320" rx="160" fill="url(#bg)"/>
+  <circle cx="160" cy="126" r="58" fill="#ffffff" opacity="0.92"/>
+  <path d="M74 270c12-62 45-92 86-92s74 30 86 92" fill="#ffffff" opacity="0.92"/>
+  <text x="160" y="294" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800" fill="#ffffff">GL</text>
+</svg>
