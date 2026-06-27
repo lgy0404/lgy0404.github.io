@@ -213,14 +213,6 @@ I am a Ph.D. candidate in the Department of Control Science and Engineering at Z
 
 </div>
 
-<span class='anchor' id='experiences'></span>
-# 💻 Experiences
-
-- 2025.08 - Present | <img src="./images/logos/kuaishou-icon.png" class="exp-logo exp-logo--kuaishou" alt="Kuaishou logo"> Kuaishou Technology  
-  Research Intern on digital agents, with a focus on annotation-free adaptation, agent post-training, and long-horizon context management.
-- 2024.08 - 2025.08 | <img src="./images/logos/vivo-logo.svg" class="exp-logo exp-logo--vivo" alt="vivo logo"> vivo AI Lab  
-  Research Intern on GUI-based digital agents, few-shot demonstration learning, online evaluation, and memory-centric benchmarking.
-
 <span class='anchor' id='selected-work'></span>
 # 📝 Selected Work
 
@@ -366,6 +358,14 @@ I am a Ph.D. candidate in the Department of Control Science and Engineering at Z
 <span style="font-size: 0.93em;"><img src="./images/logo-author.png" style="width: 1em; position: relative; top: -0.1em;"> Hongsen Liu, Lin Wang, **<u>Guangyi Liu</u>**, Yong Sun, Shizhong Li, and Wenchao Meng.</span>\
 <span style="font-size: 0.93em;"><img src="./images/logo-venue.png" style="width: 0.975em; position: relative; top: -0.115em;"> **IEEE ISIE 2024 (Oral)**</span>\
 <a href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16513972165585140029"><img alt="Google Scholar citations" src="https://img.shields.io/badge/Citations-1-white?logo=Google%20Scholar&style=flat-square&labelColor=white&cacheSeconds=10" style="border: 1px solid #ccc; border-radius: 4px;"></a>
+
+<span class='anchor' id='experiences'></span>
+# 💻 Experiences
+
+- 2025.08 - Present | <img src="./images/logos/kuaishou-icon.png" class="exp-logo exp-logo--kuaishou" alt="Kuaishou logo"> Kuaishou Technology  
+  Research Intern on digital agents, with a focus on annotation-free adaptation, agent post-training, and long-horizon context management.
+- 2024.08 - 2025.08 | <img src="./images/logos/vivo-logo.svg" class="exp-logo exp-logo--vivo" alt="vivo logo"> vivo AI Lab  
+  Research Intern on GUI-based digital agents, few-shot demonstration learning, online evaluation, and memory-centric benchmarking.
 
 # 🏆 Honors & Awards
 
