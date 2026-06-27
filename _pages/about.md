@@ -184,7 +184,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 # About me
 
-I am a Ph.D. candidate in the Department of Control Science and Engineering at Zhejiang University (ZJU), where I have been since 2023, under the supervision of [Prof. Yong Liu](https://person.zju.edu.cn/yongliu) and [Dr. Jiangning Zhang](https://zhangzjn.github.io/) at the [Advanced Perception on Robotics and Intelligence Learning (APRIL) Lab](https://april.zju.edu.cn/). My research aims to build **universal digital agents** that can perceive, learn, and act in real digital environments.
+I am a Ph.D. candidate in the Department of Control Science and Engineering at Zhejiang University (ZJU), where I have been since 2023, under the supervision of [Prof. Yong Liu](https://person.zju.edu.cn/yongliu), [Dr. Jiangning Zhang](https://zhangzjn.github.io/), and [Dr. Liang Liu](https://scholar.google.com/citations?user=Kkg3IPMAAAAJ&hl=en) at the [Advanced Perception on Robotics and Intelligence Learning (APRIL) Lab](https://april.zju.edu.cn/). My research aims to build **universal digital agents** that can perceive, learn, and act in real digital environments.
 
 <div class="profile-stats" markdown="1">
 
@@ -366,9 +366,9 @@ I am a Ph.D. candidate in the Department of Control Science and Engineering at Z
 # 📖 Education
 
 - 2025.09 - Present | <img src="./images/logos/zju-logo-1.png" class="edu-logo" alt="Zhejiang University logo"> Ph.D. Student, Zhejiang University, Hangzhou  
-  Advisors: [Prof. Yong Liu](https://person.zju.edu.cn/yongliu) and [Dr. Jiangning Zhang](https://zhangzjn.github.io/); [Advanced Perception on Robotics and Intelligence Learning (APRIL) Lab](https://april.zju.edu.cn/).
+  Advisors: [Prof. Yong Liu](https://person.zju.edu.cn/yongliu), [Dr. Jiangning Zhang](https://zhangzjn.github.io/), and [Dr. Liang Liu](https://scholar.google.com/citations?user=Kkg3IPMAAAAJ&hl=en); [ZJU APRIL Lab](https://april.zju.edu.cn/).
 - 2023.06 - 2025.08 | <img src="./images/logos/zju-logo-1.png" class="edu-logo" alt="Zhejiang University logo"> M.S. Student, Zhejiang University, Hangzhou  
-  Advisor: [Prof. Wenchao Meng](https://person.zju.edu.cn/wmeng); [Networked Sensing and Control (NeSC) Group](http://nesc.zju.edu.cn/).
+  Advisor: [Prof. Wenchao Meng](https://person.zju.edu.cn/wmeng); [ZJU NeSC Group](http://nesc.zju.edu.cn/).
 - 2019.09 - 2023.06 | <img src="./images/logos/cumt-logo.png" class="edu-logo edu-logo--cumt" alt="China University of Mining and Technology logo"> B.Eng. in Automatic Control, China University of Mining and Technology, Xuzhou  
   Advisor: [Prof. Wei Dai](https://faculty.cumt.edu.cn/DaiW/zh_CN/img/175786/list/%7B%7B:linkUrl%7D%7D); Ranking: No.1/203 overall; National Scholarship recipient.
 
