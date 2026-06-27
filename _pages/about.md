@@ -349,14 +349,6 @@ I am a Ph.D. candidate in the Department of Control Science and Engineering at Z
 <span style="font-size: 0.93em;"><img src="./images/logo-venue.png" style="width: 0.975em; position: relative; top: -0.115em;"> **CFAgentic @ ICML 2025 (Oral)**</span>\
 <a href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10794877405588499537,10796259486820381126"><img alt="Google Scholar citations" src="https://img.shields.io/badge/Citations-13-white?logo=Google%20Scholar&style=flat-square&labelColor=white&cacheSeconds=10" style="border: 1px solid #ccc; border-radius: 4px;"></a>
 
-<span class='anchor' id='experiences'></span>
-# 💻 Experiences
-
-- 2025.08 - Present | <img src="./images/logos/kuaishou-icon.png" class="exp-logo exp-logo--kuaishou" alt="Kuaishou logo"> Kuaishou Technology  
-  Research Intern; Mentor: [Martin Li](https://scholar.google.com/citations?user=atSPcL8AAAAJ&hl=zh-CN).
-- 2024.08 - 2025.08 | <img src="./images/logos/vivo-logo.svg" class="exp-logo exp-logo--vivo" alt="vivo logo"> vivo AI Lab  
-  Research Intern; Mentors: [Dr. Liang Liu](https://scholar.google.com/citations?user=Kkg3IPMAAAAJ&hl=en) and [Prof. Hongsheng Li](https://www.ee.cuhk.edu.hk/~hsli/).
-
 <span class='anchor' id='education'></span>
 # 📖 Education
 
@@ -366,6 +358,14 @@ I am a Ph.D. candidate in the Department of Control Science and Engineering at Z
   Advisor: [Prof. Wenchao Meng](https://person.zju.edu.cn/wmeng); [ZJU NeSC Group](http://nesc.zju.edu.cn/).
 - 2019.09 - 2023.06 | <img src="./images/logos/cumt-logo.png" class="edu-logo edu-logo--cumt" alt="China University of Mining and Technology logo"> B.Eng. in Automatic Control, China University of Mining and Technology, Xuzhou  
   Advisor: [Prof. Wei Dai](https://faculty.cumt.edu.cn/DaiW/zh_CN/img/175786/list/%7B%7B:linkUrl%7D%7D); Ranking: No.1/203 overall; National Scholarship recipient.
+
+<span class='anchor' id='experiences'></span>
+# 💻 Experiences
+
+- 2025.08 - Present | <img src="./images/logos/kuaishou-icon.png" class="exp-logo exp-logo--kuaishou" alt="Kuaishou logo"> Kuaishou Technology  
+  Research Intern; Mentor: [Martin Li](https://scholar.google.com/citations?user=atSPcL8AAAAJ&hl=zh-CN).
+- 2024.08 - 2025.08 | <img src="./images/logos/vivo-logo.svg" class="exp-logo exp-logo--vivo" alt="vivo logo"> vivo AI Lab  
+  Research Intern; Mentors: [Dr. Liang Liu](https://scholar.google.com/citations?user=Kkg3IPMAAAAJ&hl=en) and [Prof. Hongsheng Li](https://www.ee.cuhk.edu.hk/~hsli/).
 
 # 🏆 Honors & Awards
 
