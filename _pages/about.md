@@ -193,11 +193,10 @@ I am a Ph.D. candidate in the Department of Control Science and Engineering at Z
 </div>
 
 **Research Interests:**
-- **Universal Digital Agents:** integrating perception, reasoning, memory, tool use, and action across apps and software workflows.
-- **Agent Learning and Post-Training:** improving policies with reinforcement learning, hierarchical feedback, self-collected rollouts, and self-evolving data flywheels.
-- **Memory and Long-Horizon Control:** enabling proactive context management, experience reuse, and reliable execution over complex multi-step tasks.
-- **Demonstration Learning:** adapting agents from a few human demonstrations to handle personalized and long-tail digital workflows.
-- **Agent Evaluation:** designing online evaluation protocols and benchmarks that expose failure modes and guide iterative improvement.
+- **Universal Digital Agents:** building general agents for real digital environments across apps, devices, and software workflows.
+- **Agent Learning and Adaptation:** improving agents through interaction, feedback, reinforcement learning, and post-training.
+- **Memory and Long-Horizon Autonomy:** enabling agents to maintain context, reuse experience, and complete complex tasks.
+- **Evaluation and Data Flywheels:** connecting benchmarks, online evaluation, and iterative improvement into closed-loop agent development.
 
 <span class='anchor' id='news'></span>
 # 🔥 News
