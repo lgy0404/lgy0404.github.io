@@ -282,7 +282,7 @@ I am a Ph.D. candidate in the Department of Control Science and Engineering at Z
   </div>
   <div class="paper-card__content">
     <p class="paper-card__title"><a href="https://arxiv.org/abs/2504.13805"><strong>LearnAct: Few-Shot Mobile GUI Agent with a Unified Demonstration Benchmark</strong></a></p>
-    <div class="paper-card__meta"><img src="./images/logo-author.png" style="width: 1em; position: relative; top: -0.1em;"> <strong><u>Guangyi Liu</u></strong>, Pengxiang Zhao, Liang Liu, Zhiming Chen, Yuxiang Chai, <span class="author-more"><input type="checkbox" id="author-more-3" class="author-toggle"><label for="author-more-3" class="more-label">4 More Authors</label><label for="author-more-3" class="author-rest"> Shuai Ren, Hao Wang, Shibo He, and Wenchao Meng.</label></span></div>
+    <div class="paper-card__meta"><img src="./images/logo-author.png" style="width: 1em; position: relative; top: -0.1em;"> <strong><u>Guangyi Liu</u></strong>, Pengxiang Zhao, Liang Liu, et al.</div>
     <div class="paper-card__venue"><img src="./images/logo-venue.png" style="width: 0.975em; position: relative; top: -0.115em;"> <strong>ACL 2026</strong></div>
     <ul class="paper-card__highlights">
       <li>Introduces LearnGUI with 2,252 offline tasks and 101 online tasks for demonstration-based learning.</li>
@@ -303,7 +303,7 @@ I am a Ph.D. candidate in the Department of Control Science and Engineering at Z
   </div>
   <div class="paper-card__content">
     <p class="paper-card__title"><a href="https://arxiv.org/abs/2504.19838"><strong>LLM-Powered GUI Agents in Phone Automation: Surveying Progress and Prospects</strong></a></p>
-    <div class="paper-card__meta"><img src="./images/logo-author.png" style="width: 1em; position: relative; top: -0.1em;"> <strong><u>Guangyi Liu</u></strong>, Pengxiang Zhao, Yaozhen Liang, Liang Liu, Yaxuan Guo, <span class="author-more"><input type="checkbox" id="author-more-4" class="author-toggle"><label for="author-more-4" class="more-label">16 More Authors</label><label for="author-more-4" class="author-rest"> Han Xiao, Weifeng Lin, Yuxiang Chai, Yue Han, Shuai Ren, Hao Wang, Xiaoyu Liang, WenHao Wang, Tianze Wu, Zhengxi Lu, Siheng Chen, LiLinghao, Hao Wang, Guanjing Xiong, Yong Liu, and Hongsheng Li.</label></span></div>
+    <div class="paper-card__meta"><img src="./images/logo-author.png" style="width: 1em; position: relative; top: -0.1em;"> <strong><u>Guangyi Liu</u></strong>, Pengxiang Zhao, et al.</div>
     <div class="paper-card__venue"><img src="./images/logo-venue.png" style="width: 0.975em; position: relative; top: -0.115em;"> <strong>TMLR</strong></div>
     <ul class="paper-card__highlights">
       <li>Provides a systematic map of LLM-powered mobile GUI agents, covering frameworks, models, data, evaluation, and open challenges.</li>
