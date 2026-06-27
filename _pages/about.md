@@ -367,6 +367,16 @@ I am a Ph.D. candidate in the Department of Control Science and Engineering at Z
 - 2024.08 - 2025.08 | <img src="./images/logos/vivo-logo.svg" class="exp-logo exp-logo--vivo" alt="vivo logo"> vivo AI Lab  
   Research Intern on GUI-based digital agents, few-shot demonstration learning, online evaluation, and memory-centric benchmarking.
 
+<span class='anchor' id='education'></span>
+# 📖 Education
+
+- 2025.09 - Present | <img src="./images/logos/zju-logo-1.png" class="edu-logo" alt="Zhejiang University logo"> Ph.D. Student, Zhejiang University, Hangzhou  
+  Research focus: universal digital agents, agent post-training, memory, and long-horizon control.
+- 2023.06 - 2025.08 | <img src="./images/logos/zju-logo-1.png" class="edu-logo" alt="Zhejiang University logo"> M.S. Student, Zhejiang University, Hangzhou  
+  Research focus: LLM-powered agents and mobile GUI automation.
+- 2019.09 - 2023.06 | <img src="./images/logos/cumt-logo.png" class="edu-logo edu-logo--cumt" alt="China University of Mining and Technology logo"> B.Eng. in Automatic Control, China University of Mining and Technology, Xuzhou  
+  Ranking: No.1/203 overall; National Scholarship recipient.
+
 # 🏆 Honors & Awards
 
 - Excellent Graduate Student of Zhejiang University.
