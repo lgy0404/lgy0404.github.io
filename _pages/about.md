@@ -224,8 +224,8 @@ I am a Ph.D. candidate in the Department of Control Science and Engineering at Z
     <p class="paper-card__title"><a href="https://arxiv.org/abs/2606.19930"><strong>MobileForge: Annotation-Free Adaptation for Mobile GUI Agents with Hierarchical Feedback-Guided Policy Optimization</strong></a></p>
     <div class="paper-card__meta"><img src="./images/logo-author.png" style="width: 1em; position: relative; top: -0.1em;"> <strong><u>Guangyi Liu</u></strong>, Pengxiang Zhao, Gao Wu, Yiwen Yin, Mading Li, <span class="author-more"><input type="checkbox" id="author-more-0" class="author-toggle"><label for="author-more-0" class="more-label">6 More Authors</label><label for="author-more-0" class="author-rest"> Liang Liu, Congxiao Liu, Zhang Qi, Mengyan Wang, Liang Guo, and Yong Liu.</label></span></div>
     <ul class="paper-card__highlights">
-      <li>Proposes MobileGym and HiFPO to connect target-app exploration, curriculum mining, rollout feedback, and policy optimization.</li>
-      <li>Improves both generalist and GUI-specialized agents; ForgeOwl-8B reaches 77.6% Pass@3 on AndroidWorld and 41.0% on MobileWorld GUI-only.</li>
+      <li>Identifies two bottlenecks in annotation-free mobile GUI adaptation and proposes MobileGym to unify target-app exploration, curriculum mining, rollout execution, and hierarchical evaluation.</li>
+      <li>Proposes HiFPO to turn multi-attempt feedback and corrective hints into hint-contextualized step-level GRPO updates, yielding ForgeOwl-8B as the strongest open-data mobile GUI agent in our evaluation.</li>
     </ul>
     <div class="paper-card__links"><a href="https://github.com/kwai/MobileForge"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/kwai/MobileForge?style=flat-square&logo=github&logoColor=black&labelColor=white&color=white&label=Stars&cacheSeconds=10" style="border: 1px solid #ccc; border-radius: 4px;"></a></div>
   </div>
@@ -244,8 +244,8 @@ I am a Ph.D. candidate in the Department of Control Science and Engineering at Z
     <p class="paper-card__title"><a href="https://arxiv.org/abs/2606.19926"><strong>MemGUI-Agent: An End-to-End Long-Horizon Mobile GUI Agent with Proactive Context Management</strong></a></p>
     <div class="paper-card__meta"><img src="./images/logo-author.png" style="width: 1em; position: relative; top: -0.1em;"> <strong><u>Guangyi Liu</u></strong>, Gao Wu, Congxiao Liu, Pengxiang Zhao, Liang Liu, <span class="author-more"><input type="checkbox" id="author-more-1" class="author-toggle"><label for="author-more-1" class="more-label">5 More Authors</label><label for="author-more-1" class="author-rest"> Mading Li, Zhang Qi, Mengyan Wang, Liang Guo, and Yong Liu.</label></span></div>
     <ul class="paper-card__highlights">
-      <li>Introduces Context-as-Action (ConAct), making history folding, UI memory, and step self-description first-class policy actions.</li>
-      <li>Builds MemGUI-3K with 2,956 fully annotated trajectories and achieves strong long-horizon results on MemGUI-Bench and MobileWorld.</li>
+      <li>Introduces MemGUI-Agent, an end-to-end long-horizon mobile GUI agent built on ConAct, which unifies history folding, UI memory, and self-describing step outputs within one policy.</li>
+      <li>Constructs MemGUI-3K with 2,956 full ConAct-annotated trajectories and trains MemGUI-8B-SFT, achieving the best open-data 8B performance on MemGUI-Bench and generalizing to out-of-distribution MobileWorld.</li>
     </ul>
     <div class="paper-card__links"><a href="https://github.com/kwai/MemGUI-Agent"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/kwai/MemGUI-Agent?style=flat-square&logo=github&logoColor=black&labelColor=white&color=white&label=Stars&cacheSeconds=10" style="border: 1px solid #ccc; border-radius: 4px;"></a></div>
   </div>
@@ -264,8 +264,8 @@ I am a Ph.D. candidate in the Department of Control Science and Engineering at Z
     <p class="paper-card__title"><a href="https://arxiv.org/abs/2602.06075"><strong>MemGUI-Bench: Benchmarking Memory of Mobile GUI Agents in Dynamic Environments</strong></a></p>
     <div class="paper-card__meta"><img src="./images/logo-author.png" style="width: 1em; position: relative; top: -0.1em;"> <strong><u>Guangyi Liu</u></strong>, Pengxiang Zhao, Yaozhen Liang, Qinyi Luo, Shunye Tang, <span class="author-more"><input type="checkbox" id="author-more-2" class="author-toggle"><label for="author-more-2" class="more-label">10 More Authors</label><label for="author-more-2" class="author-rest"> Yuxiang Chai, Weifeng Lin, Han Xiao, WenHao Wang, Siheng Chen, Zhengxi Lu, Gao Wu, Hao Wang, Liang Liu, and Yong Liu.</label></span></div>
     <ul class="paper-card__highlights">
-      <li>Builds a memory-centric benchmark with 128 tasks across 26 apps, where 89.8% challenge memory through cross-temporal and cross-spatial retention.</li>
-      <li>Introduces MemGUI-Eval and reveals substantial memory gaps across 11 mobile GUI agents.</li>
+      <li>Establishes a systematic memory taxonomy and a 128-task, 26-app benchmark where 89.8% of tasks test cross-temporal and cross-spatial memory retention under pass@1/pass@k protocols.</li>
+      <li>Introduces MemGUI-Eval with Progressive Scrutiny across 3 stages and 7 hierarchical metrics, evaluating 11 agents to reveal memory deficits, baselines, and 7 failure modes.</li>
     </ul>
     <div class="paper-card__links"><a href="https://github.com/lgy0404/MemGUI-Bench"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/lgy0404/MemGUI-Bench?style=flat-square&logo=github&logoColor=black&labelColor=white&color=white&label=Stars&cacheSeconds=10" style="border: 1px solid #ccc; border-radius: 4px;"></a> <a href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17604234699666112827,6880181861836555417"><img alt="Google Scholar citations" src="https://img.shields.io/badge/Citations-11-white?logo=Google%20Scholar&style=flat-square&labelColor=white&cacheSeconds=10" style="border: 1px solid #ccc; border-radius: 4px;"></a></div>
   </div>
