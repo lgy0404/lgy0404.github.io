@@ -192,12 +192,6 @@ I am a Ph.D. candidate in the Department of Control Science and Engineering at Z
 
 </div>
 
-**Research Interests:**
-- **Universal Digital Agents:** building general agents for real digital environments across apps, devices, and software workflows.
-- **Agent Learning and Adaptation:** improving agents through interaction, feedback, reinforcement learning, and post-training.
-- **Memory and Long-Horizon Autonomy:** enabling agents to maintain context, reuse experience, and complete complex tasks.
-- **Evaluation and Data Flywheels:** connecting benchmarks, online evaluation, and iterative improvement into closed-loop agent development.
-
 <span class='anchor' id='news'></span>
 # 🔥 News
 
