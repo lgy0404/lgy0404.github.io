@@ -358,15 +358,15 @@ I am a Ph.D. candidate in the Department of Control Science and Engineering at Z
 # 💻 Experiences
 
 - 2025.08 - Present | <img src="./images/logos/kuaishou-icon.png" class="exp-logo exp-logo--kuaishou" alt="Kuaishou logo"> Kuaishou Technology  
-  Research Intern on digital agents, with a focus on annotation-free adaptation, agent post-training, and long-horizon context management.
+  Research Intern; Mentor: [Martin Li](https://scholar.google.com/citations?user=atSPcL8AAAAJ&hl=zh-CN).
 - 2024.08 - 2025.08 | <img src="./images/logos/vivo-logo.svg" class="exp-logo exp-logo--vivo" alt="vivo logo"> vivo AI Lab  
-  Research Intern on GUI-based digital agents, few-shot demonstration learning, online evaluation, and memory-centric benchmarking.
+  Research Intern; Mentors: [Dr. Liang Liu](https://scholar.google.com/citations?user=Kkg3IPMAAAAJ&hl=en) and [Prof. Hongsheng Li](https://www.ee.cuhk.edu.hk/~hsli/).
 
 <span class='anchor' id='education'></span>
 # 📖 Education
 
 - 2025.09 - Present | <img src="./images/logos/zju-logo-1.png" class="edu-logo" alt="Zhejiang University logo"> Ph.D. Student, Zhejiang University, Hangzhou  
-  Advisor: [Prof. Yong Liu](https://person.zju.edu.cn/yongliu); [Advanced Perception on Robotics and Intelligence Learning (APRIL) Lab](https://april.zju.edu.cn/).
+  Advisors: [Prof. Yong Liu](https://person.zju.edu.cn/yongliu) and [Dr. Jiangning Zhang](https://zhangzjn.github.io/); [Advanced Perception on Robotics and Intelligence Learning (APRIL) Lab](https://april.zju.edu.cn/).
 - 2023.06 - 2025.08 | <img src="./images/logos/zju-logo-1.png" class="edu-logo" alt="Zhejiang University logo"> M.S. Student, Zhejiang University, Hangzhou  
   Advisor: [Prof. Wenchao Meng](https://person.zju.edu.cn/wmeng); [Networked Sensing and Control (NeSC) Group](http://nesc.zju.edu.cn/).
 - 2019.09 - 2023.06 | <img src="./images/logos/cumt-logo.png" class="edu-logo edu-logo--cumt" alt="China University of Mining and Technology logo"> B.Eng. in Automatic Control, China University of Mining and Technology, Xuzhou  
