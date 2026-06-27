@@ -196,7 +196,7 @@ I am a Ph.D. candidate in the Department of Control Science and Engineering at Z
 - **Universal Digital Agents:** perception, reasoning, memory, tool use, and action in digital environments.
 - **Agent Learning and Post-Training:** reinforcement learning, feedback-guided optimization, and self-evolving data flywheels.
 - **Memory and Long-Horizon Control:** proactive context management, experience reuse, and robust multi-step execution.
-- **GUI Grounding and Demonstration Learning:** real app environments and human demonstrations for reliable agent behavior.
+- **Demonstration Learning and Agent Evaluation:** few-shot demonstrations, online evaluation, and benchmark-driven agent improvement.
 
 <span class='anchor' id='news'></span>
 # 🔥 News
@@ -217,7 +217,7 @@ I am a Ph.D. candidate in the Department of Control Science and Engineering at Z
 # 💻 Experiences
 
 - 2025.08 - Present | <img src="./images/logos/kuaishou-icon.png" class="exp-logo exp-logo--kuaishou" alt="Kuaishou logo"> Kuaishou Technology  
-  Research Intern on digital agents, with a focus on mobile GUI grounding, annotation-free adaptation, and long-horizon context management.
+  Research Intern on digital agents, with a focus on annotation-free adaptation, agent post-training, and long-horizon context management.
 - 2024.08 - 2025.08 | <img src="./images/logos/vivo-logo.svg" class="exp-logo exp-logo--vivo" alt="vivo logo"> vivo AI Lab  
   Research Intern on GUI-based digital agents, few-shot demonstration learning, online evaluation, and memory-centric benchmarking.
 
