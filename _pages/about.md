@@ -372,6 +372,8 @@ I am a Ph.D. candidate in the Department of Control Science and Engineering at Z
 - Silver Reviewer, ICML 2026.
 - Excellent Graduate Student of Zhejiang University, 2024.
 - Excellent Student Cadre of Zhejiang University, 2024.
+- Jiangsu Provincial Outstanding Graduate, 2023.
+- Jiangsu Provincial Outstanding Student Cadre, 2022.
 - National Scholarship, 2020 and 2021.
 
 # 🎓 Academic Service
