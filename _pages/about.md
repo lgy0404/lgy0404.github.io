@@ -184,7 +184,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 # About me
 
-I am a Ph.D. candidate in the Department of Control Science and Engineering at Zhejiang University (ZJU), where I have been since 2023, under the supervision of [Prof. Yong Liu](https://person.zju.edu.cn/yongliu), [Dr. Jiangning Zhang](https://zhangzjn.github.io/), and [Dr. Liang Liu](https://scholar.google.com/citations?user=Kkg3IPMAAAAJ&hl=en) at the [ZJU APRIL Lab](https://april.zju.edu.cn/). My research focuses on building **universal digital agents** that learn from interaction, remember useful experience, and act reliably in real digital environments.
+I am a Ph.D. candidate in the Department of Control Science and Engineering at Zhejiang University (ZJU), where I have been since 2023, under the supervision of [Prof. Yong Liu](https://person.zju.edu.cn/yongliu), [Dr. Jiangning Zhang](https://zhangzjn.github.io/), and [Dr. Liang Liu](https://scholar.google.com/citations?user=Kkg3IPMAAAAJ&hl=en) at the [ZJU APRIL Lab](https://april.zju.edu.cn/). My research explores the foundations of **universal digital agents**: intelligent systems that can understand digital environments, adapt to new tasks, and assist people across apps, devices, and software workflows.
 
 <div class="profile-stats" markdown="1">
 
