@@ -184,7 +184,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 # About me
 
-I am a Ph.D. candidate in the Department of Control Science and Engineering at Zhejiang University (ZJU), where I have been since 2023, under the supervision of Prof. Yong Liu at the April Lab.
+I am a Ph.D. candidate in the Department of Control Science and Engineering at Zhejiang University (ZJU), where I have been since 2023, under the supervision of Prof. Yong Liu at the April Lab. My long-term research goal is to build **universal digital agents** that can understand, remember, and act across mobile apps, web interfaces, desktop software, and broader digital environments.
 
 <div class="profile-stats" markdown="1">
 
@@ -193,12 +193,13 @@ I am a Ph.D. candidate in the Department of Control Science and Engineering at Z
 </div>
 
 **Research Interests:**
-- **Mobile GUI Agents:** building agents that operate real phone apps through screenshots, UI state, and executable actions.
+- **Universal Digital Agents:** developing general-purpose agents that connect perception, reasoning, memory, tool use, and feedback across digital environments.
+- **GUI and Mobile Agents:** using real apps as grounded, high-friction testbeds for robust digital-agent perception, planning, and execution.
 - **Agent Memory and Long-Horizon Control:** evaluating and improving short-term memory, long-term learning, and proactive context management.
-- **Annotation-Free Adaptation:** converting self-collected app interaction and feedback into policy-improvement signals.
-- **Demonstration Learning:** using a few human demonstrations to personalize agents for long-tail mobile workflows.
+- **Self-Improving Agents:** converting self-collected interaction experience and feedback into policy-improvement signals.
+- **Demonstration Learning:** using a few human demonstrations to personalize agents for long-tail digital workflows.
 
-I aim to build **reliable mobile agents** that can connect language, vision, memory, action, and feedback under real-world constraints.
+I use mobile GUI agents as a concrete proving ground, while the broader goal is **universal digital agents** that generalize across devices, applications, and software workflows.
 
 <span class='anchor' id='news'></span>
 # 🔥 News
@@ -210,7 +211,7 @@ I aim to build **reliable mobile agents** that can connect language, vision, mem
 - *2026.02*: Released [MemGUI-Bench](https://lgy0404.github.io/MemGUI-Bench/), a memory-centric benchmark for mobile GUI agents in dynamic environments.
 - *2026*: [LearnAct](https://lgy0404.github.io/LearnAct/) has been accepted by ACL 2026.
 - *2025*: Our survey, [LLM-Powered GUI Agents in Phone Automation](https://arxiv.org/abs/2504.19838), appears at TMLR.
-- *2024.08*: Joined vivo AI Lab as a research intern working on mobile GUI agents.
+- *2024.08*: Joined vivo AI Lab as a research intern working on GUI-based digital agents.
 
 </div>
 
@@ -218,9 +219,9 @@ I aim to build **reliable mobile agents** that can connect language, vision, mem
 # 💻 Experiences
 
 - 2025.08 - Present | <img src="./images/logos/kuaishou-icon.png" class="exp-logo exp-logo--kuaishou" alt="Kuaishou logo"> Kuaishou Technology  
-  Research Intern on mobile GUI agents, annotation-free adaptation, and long-horizon context management.
+  Research Intern on digital agents, with a focus on mobile GUI grounding, annotation-free adaptation, and long-horizon context management.
 - 2024.08 - 2025.08 | <img src="./images/logos/vivo-logo.svg" class="exp-logo exp-logo--vivo" alt="vivo logo"> vivo AI Lab  
-  Research Intern on mobile GUI agents, few-shot demonstration learning, online evaluation, and memory-centric benchmarking.
+  Research Intern on GUI-based digital agents, few-shot demonstration learning, online evaluation, and memory-centric benchmarking.
 
 <span class='anchor' id='selected-work'></span>
 # 📝 Selected Work
