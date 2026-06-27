@@ -354,11 +354,6 @@ I am a Ph.D. candidate in the Department of Control Science and Engineering at Z
 <span style="font-size: 0.93em;"><img src="./images/logo-venue.png" style="width: 0.975em; position: relative; top: -0.115em;"> **CFAgentic @ ICML 2025 (Oral)**</span>\
 <a href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10794877405588499537,10796259486820381126"><img alt="Google Scholar citations" src="https://img.shields.io/badge/Citations-13-white?logo=Google%20Scholar&style=flat-square&labelColor=white&cacheSeconds=10" style="border: 1px solid #ccc; border-radius: 4px;"></a>
 
-- [**Efficient HW/SW Co-design of FPGA Accelerator to Detect Anomaly Attacks in Smart Grids**](https://ieeexplore.ieee.org/abstract/document/10595763/) \
-<span style="font-size: 0.93em;"><img src="./images/logo-author.png" style="width: 1em; position: relative; top: -0.1em;"> Hongsen Liu, Lin Wang, **<u>Guangyi Liu</u>**, Yong Sun, Shizhong Li, and Wenchao Meng.</span>\
-<span style="font-size: 0.93em;"><img src="./images/logo-venue.png" style="width: 0.975em; position: relative; top: -0.115em;"> **IEEE ISIE 2024 (Oral)**</span>\
-<a href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16513972165585140029"><img alt="Google Scholar citations" src="https://img.shields.io/badge/Citations-1-white?logo=Google%20Scholar&style=flat-square&labelColor=white&cacheSeconds=10" style="border: 1px solid #ccc; border-radius: 4px;"></a>
-
 <span class='anchor' id='experiences'></span>
 # 💻 Experiences
 
