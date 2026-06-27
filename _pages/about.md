@@ -208,6 +208,8 @@ I am a Ph.D. candidate in the Department of Control Science and Engineering at Z
 - *2026.02*: Released [MemGUI-Bench](https://lgy0404.github.io/MemGUI-Bench/), a memory-centric benchmark for mobile GUI agents in dynamic environments.
 - *2026*: [LearnAct](https://lgy0404.github.io/LearnAct/) has been accepted by ACL 2026.
 - *2025*: Our survey, [LLM-Powered GUI Agents in Phone Automation](https://arxiv.org/abs/2504.19838), appears at TMLR.
+- *2025.04*: Released [LLM-Powered GUI Agents in Phone Automation: Surveying Progress and Prospects](https://arxiv.org/abs/2504.19838).
+- *2025.04*: Released [LearnAct: Few-Shot Mobile GUI Agent with a Unified Demonstration Benchmark](https://arxiv.org/abs/2504.13805).
 - *2024.08*: Joined vivo AI Lab as a research intern working on GUI-based digital agents.
 
 </div>
