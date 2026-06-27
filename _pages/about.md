@@ -184,7 +184,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 # About me
 
-I am a Ph.D. candidate in the Department of Control Science and Engineering at Zhejiang University (ZJU), where I have been since 2023, under the supervision of Prof. Yong Liu at the April Lab. My long-term research goal is to build **universal digital agents** that can understand, remember, and act across mobile apps, web interfaces, desktop software, and broader digital environments.
+I am a Ph.D. candidate in the Department of Control Science and Engineering at Zhejiang University (ZJU), where I have been since 2023, under the supervision of Prof. Yong Liu at the April Lab. My research aims to build **universal digital agents** that can perceive, learn, and act in real digital environments.
 
 <div class="profile-stats" markdown="1">
 
@@ -193,14 +193,10 @@ I am a Ph.D. candidate in the Department of Control Science and Engineering at Z
 </div>
 
 **Research Interests:**
-- **Universal Digital Agents:** developing general-purpose agents that connect perception, reasoning, memory, tool use, and feedback across digital environments.
-- **GUI and Mobile Agents:** using real apps as grounded, high-friction testbeds for robust digital-agent perception, planning, and execution.
-- **Agent Memory and Long-Horizon Control:** evaluating and improving short-term memory, long-term learning, and proactive context management.
-- **Reinforcement Learning and Agent Post-Training:** optimizing agent policies from self-collected rollouts, hierarchical feedback, rewards, and corrective hints beyond supervised learning.
-- **Data Flywheels and Self-Evolving Agents:** turning exploration, evaluation, failure analysis, and experience replay into continuous improvement loops for digital agents.
-- **Demonstration Learning:** using a few human demonstrations to personalize agents for long-tail digital workflows.
-
-I use mobile GUI agents as a concrete proving ground, while the broader goal is **universal digital agents** that generalize across devices, applications, and software workflows.
+- **Universal Digital Agents:** perception, reasoning, memory, tool use, and action in digital environments.
+- **Agent Learning and Post-Training:** reinforcement learning, feedback-guided optimization, and self-evolving data flywheels.
+- **Memory and Long-Horizon Control:** proactive context management, experience reuse, and robust multi-step execution.
+- **GUI Grounding and Demonstration Learning:** real app environments and human demonstrations for reliable agent behavior.
 
 <span class='anchor' id='news'></span>
 # 🔥 News
