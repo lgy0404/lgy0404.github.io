@@ -197,8 +197,8 @@ I am a Ph.D. candidate in the Department of Control Science and Engineering at Z
 
 <div class="news-scroll" markdown="1">
 
-- *2026.06*: Released [MemGUI-Agent](https://memgui-agent.github.io/), an end-to-end long-horizon mobile GUI agent with proactive context management.
 - *2026.06*: Released [MobileForge](https://mobile-forge.github.io/), an annotation-free adaptation system for mobile GUI agents.
+- *2026.06*: Released [MemGUI-Agent](https://memgui-agent.github.io/), an end-to-end long-horizon mobile GUI agent with proactive context management.
 - *2026.05*: Recognized as a Silver Reviewer for ICML 2026.
 - *2026.04*: [LearnAct](https://lgy0404.github.io/LearnAct/) has been accepted by ACL 2026.
 - *2026.02*: Released [MemGUI-Bench](https://lgy0404.github.io/MemGUI-Bench/), a memory-centric benchmark for mobile GUI agents in dynamic environments.
@@ -215,34 +215,14 @@ I am a Ph.D. candidate in the Department of Control Science and Engineering at Z
   <div class="paper-card__image">
     <div class="paper-card__thumb">
       <span class="paper-card__badge paper-card__badge--venue">Preprint</span>
-      <a href="https://arxiv.org/abs/2606.19926">
-        <img src="./images/paper-images/memgui-agent-conact.png" alt="MemGUI-Agent ConAct framework">
-      </a>
-    </div>
-  </div>
-  <div class="paper-card__content">
-    <p class="paper-card__title"><a href="https://arxiv.org/abs/2606.19926"><strong>MemGUI-Agent: An End-to-End Long-Horizon Mobile GUI Agent with Proactive Context Management</strong></a></p>
-    <div class="paper-card__meta"><img src="./images/logo-author.png" style="width: 1em; position: relative; top: -0.1em;"> <strong><u>Guangyi Liu</u></strong>, Gao Wu, Congxiao Liu, Pengxiang Zhao, Liang Liu, <span class="author-more"><input type="checkbox" id="author-more-0" class="author-toggle"><label for="author-more-0" class="more-label">5 More Authors</label><label for="author-more-0" class="author-rest"> Mading Li, Zhang Qi, Mengyan Wang, Liang Guo, and Yong Liu.</label></span></div>
-    <ul class="paper-card__highlights">
-      <li>Introduces Context-as-Action (ConAct), making history folding, UI memory, and step self-description first-class policy actions.</li>
-      <li>Builds MemGUI-3K with 2,956 fully annotated trajectories and achieves strong long-horizon results on MemGUI-Bench and MobileWorld.</li>
-    </ul>
-    <div class="paper-card__links"><a href="https://github.com/kwai/MemGUI-Agent"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/kwai/MemGUI-Agent?style=flat-square&logo=github&logoColor=black&labelColor=white&color=white&label=Stars&cacheSeconds=10" style="border: 1px solid #ccc; border-radius: 4px;"></a></div>
-  </div>
-</div>
-
-<div class="paper-card">
-  <div class="paper-card__image">
-    <div class="paper-card__thumb">
-      <span class="paper-card__badge paper-card__badge--venue">Preprint</span>
       <a href="https://arxiv.org/abs/2606.19930">
-        <img src="./images/paper-images/mobileforge-main-performance.png" alt="MobileForge main performance">
+        <img src="./images/paper-images/mobileforge-main-performance.png" alt="MobileForge main performance" width="1200" height="410" loading="lazy" decoding="async">
       </a>
     </div>
   </div>
   <div class="paper-card__content">
     <p class="paper-card__title"><a href="https://arxiv.org/abs/2606.19930"><strong>MobileForge: Annotation-Free Adaptation for Mobile GUI Agents with Hierarchical Feedback-Guided Policy Optimization</strong></a></p>
-    <div class="paper-card__meta"><img src="./images/logo-author.png" style="width: 1em; position: relative; top: -0.1em;"> <strong><u>Guangyi Liu</u></strong>, Pengxiang Zhao, Gao Wu, Yiwen Yin, Mading Li, <span class="author-more"><input type="checkbox" id="author-more-1" class="author-toggle"><label for="author-more-1" class="more-label">6 More Authors</label><label for="author-more-1" class="author-rest"> Liang Liu, Congxiao Liu, Zhang Qi, Mengyan Wang, Liang Guo, and Yong Liu.</label></span></div>
+    <div class="paper-card__meta"><img src="./images/logo-author.png" style="width: 1em; position: relative; top: -0.1em;"> <strong><u>Guangyi Liu</u></strong>, Pengxiang Zhao, Gao Wu, Yiwen Yin, Mading Li, <span class="author-more"><input type="checkbox" id="author-more-0" class="author-toggle"><label for="author-more-0" class="more-label">6 More Authors</label><label for="author-more-0" class="author-rest"> Liang Liu, Congxiao Liu, Zhang Qi, Mengyan Wang, Liang Guo, and Yong Liu.</label></span></div>
     <ul class="paper-card__highlights">
       <li>Proposes MobileGym and HiFPO to connect target-app exploration, curriculum mining, rollout feedback, and policy optimization.</li>
       <li>Improves both generalist and GUI-specialized agents; ForgeOwl-8B reaches 77.6% Pass@3 on AndroidWorld and 41.0% on MobileWorld GUI-only.</li>
@@ -255,8 +235,28 @@ I am a Ph.D. candidate in the Department of Control Science and Engineering at Z
   <div class="paper-card__image">
     <div class="paper-card__thumb">
       <span class="paper-card__badge paper-card__badge--venue">Preprint</span>
+      <a href="https://arxiv.org/abs/2606.19926">
+        <img src="./images/paper-images/memgui-agent-conact.png" alt="MemGUI-Agent ConAct framework" width="1200" height="403" loading="lazy" decoding="async">
+      </a>
+    </div>
+  </div>
+  <div class="paper-card__content">
+    <p class="paper-card__title"><a href="https://arxiv.org/abs/2606.19926"><strong>MemGUI-Agent: An End-to-End Long-Horizon Mobile GUI Agent with Proactive Context Management</strong></a></p>
+    <div class="paper-card__meta"><img src="./images/logo-author.png" style="width: 1em; position: relative; top: -0.1em;"> <strong><u>Guangyi Liu</u></strong>, Gao Wu, Congxiao Liu, Pengxiang Zhao, Liang Liu, <span class="author-more"><input type="checkbox" id="author-more-1" class="author-toggle"><label for="author-more-1" class="more-label">5 More Authors</label><label for="author-more-1" class="author-rest"> Mading Li, Zhang Qi, Mengyan Wang, Liang Guo, and Yong Liu.</label></span></div>
+    <ul class="paper-card__highlights">
+      <li>Introduces Context-as-Action (ConAct), making history folding, UI memory, and step self-description first-class policy actions.</li>
+      <li>Builds MemGUI-3K with 2,956 fully annotated trajectories and achieves strong long-horizon results on MemGUI-Bench and MobileWorld.</li>
+    </ul>
+    <div class="paper-card__links"><a href="https://github.com/kwai/MemGUI-Agent"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/kwai/MemGUI-Agent?style=flat-square&logo=github&logoColor=black&labelColor=white&color=white&label=Stars&cacheSeconds=10" style="border: 1px solid #ccc; border-radius: 4px;"></a></div>
+  </div>
+</div>
+
+<div class="paper-card">
+  <div class="paper-card__image">
+    <div class="paper-card__thumb">
+      <span class="paper-card__badge paper-card__badge--venue">Preprint</span>
       <a href="https://arxiv.org/abs/2602.06075">
-        <img src="./images/paper-images/memgui-bench-overview.png" alt="MemGUI-Bench overview">
+        <img src="./images/paper-images/memgui-bench-overview.png" alt="MemGUI-Bench overview" width="1200" height="622" loading="lazy" decoding="async">
       </a>
     </div>
   </div>
@@ -276,7 +276,7 @@ I am a Ph.D. candidate in the Department of Control Science and Engineering at Z
     <div class="paper-card__thumb">
       <span class="paper-card__badge paper-card__badge--venue">ACL 2026</span>
       <a href="https://arxiv.org/abs/2504.13805">
-        <img src="./images/paper-images/learnact-teaser.png" alt="LearnAct teaser">
+        <img src="./images/paper-images/learnact-teaser.png" alt="LearnAct teaser" width="1200" height="468" loading="lazy" decoding="async">
       </a>
     </div>
   </div>
@@ -297,7 +297,7 @@ I am a Ph.D. candidate in the Department of Control Science and Engineering at Z
     <div class="paper-card__thumb">
       <span class="paper-card__badge paper-card__badge--venue">TMLR</span>
       <a href="https://arxiv.org/abs/2504.19838">
-        <img src="./images/paper-images/survey-framework.png" alt="Phone GUI agent survey taxonomy">
+        <img src="./images/paper-images/survey-framework.png" alt="Phone GUI agent survey taxonomy" width="1200" height="907" loading="lazy" decoding="async">
       </a>
     </div>
   </div>
