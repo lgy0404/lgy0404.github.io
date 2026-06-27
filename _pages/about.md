@@ -210,7 +210,7 @@ I aim to build **reliable mobile agents** that can connect language, vision, mem
 - *2026.02*: Released [MemGUI-Bench](https://lgy0404.github.io/MemGUI-Bench/), a memory-centric benchmark for mobile GUI agents in dynamic environments.
 - *2026*: [LearnAct](https://lgy0404.github.io/LearnAct/) has been accepted by ACL 2026.
 - *2025*: Our survey, [LLM-Powered GUI Agents in Phone Automation](https://arxiv.org/abs/2504.19838), appears at TMLR.
-- *2024.08*: Joined vivo AI Lab as a research intern working on Phone GUI Agents.
+- *2024.08*: Joined vivo AI Lab as a research intern working on mobile GUI agents.
 
 </div>
 
@@ -220,7 +220,7 @@ I aim to build **reliable mobile agents** that can connect language, vision, mem
 - 2025.08 - Present | <img src="./images/logos/kuaishou-icon.png" class="exp-logo exp-logo--kuaishou" alt="Kuaishou logo"> Kuaishou Technology  
   Research Intern on mobile GUI agents, annotation-free adaptation, and long-horizon context management.
 - 2024.08 - 2025.08 | <img src="./images/logos/vivo-logo.svg" class="exp-logo exp-logo--vivo" alt="vivo logo"> vivo AI Lab  
-  Research Intern on Phone GUI Agents, few-shot demonstration learning, online evaluation, and memory-centric benchmarking.
+  Research Intern on mobile GUI agents, few-shot demonstration learning, online evaluation, and memory-centric benchmarking.
 
 <span class='anchor' id='selected-work'></span>
 # 📝 Selected Work
@@ -320,7 +320,7 @@ I aim to build **reliable mobile agents** that can connect language, vision, mem
     <div class="paper-card__meta"><img src="./images/logo-author.png" style="width: 1em; position: relative; top: -0.1em;"> <strong><u>Guangyi Liu</u></strong>, Pengxiang Zhao, Yaozhen Liang, Liang Liu, Yaxuan Guo, <span class="author-more"><input type="checkbox" id="author-more-4" class="author-toggle"><label for="author-more-4" class="more-label">16 More Authors</label><label for="author-more-4" class="author-rest"> Han Xiao, Weifeng Lin, Yuxiang Chai, Yue Han, Shuai Ren, Hao Wang, Xiaoyu Liang, WenHao Wang, Tianze Wu, Zhengxi Lu, Siheng Chen, LiLinghao, Hao Wang, Guanjing Xiong, Yong Liu, and Hongsheng Li.</label></span></div>
     <div class="paper-card__venue"><img src="./images/logo-venue.png" style="width: 0.975em; position: relative; top: -0.115em;"> <strong>TMLR</strong></div>
     <ul class="paper-card__highlights">
-      <li>Provides a systematic map of LLM-powered phone GUI agents, covering frameworks, models, data, evaluation, and open challenges.</li>
+      <li>Provides a systematic map of LLM-powered mobile GUI agents, covering frameworks, models, data, evaluation, and open challenges.</li>
       <li>Clarifies how phone automation is moving from static scripts toward perception-reasoning-action agents.</li>
     </ul>
     <div class="paper-card__links"><a href="https://github.com/PhoneLLM/Awesome-LLM-Powered-Phone-GUI-Agents"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/PhoneLLM/Awesome-LLM-Powered-Phone-GUI-Agents?style=flat-square&logo=github&logoColor=black&labelColor=white&color=white&label=Stars&cacheSeconds=10" style="border: 1px solid #ccc; border-radius: 4px;"></a> <a href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6050737529106194091,847899513706501378"><img alt="Google Scholar citations" src="https://img.shields.io/badge/Citations-60-white?logo=Google%20Scholar&style=flat-square&labelColor=white&cacheSeconds=10" style="border: 1px solid #ccc; border-radius: 4px;"></a></div>
