@@ -371,7 +371,6 @@ I am a Ph.D. candidate in the Department of Control Science and Engineering at Z
 
 - Excellent Graduate Student of Zhejiang University.
 - Excellent Student Cadre of Zhejiang University.
-- Silver Medal, China International "Internet+" Innovation and Entrepreneurship Competition.
 - National Scholarship, 2020 and 2021.
 
 # 🎓 Academic Service
