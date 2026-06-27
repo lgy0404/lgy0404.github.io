@@ -196,7 +196,8 @@ I am a Ph.D. candidate in the Department of Control Science and Engineering at Z
 - **Universal Digital Agents:** integrating perception, reasoning, memory, tool use, and action across apps and software workflows.
 - **Agent Learning and Post-Training:** improving policies with reinforcement learning, hierarchical feedback, self-collected rollouts, and self-evolving data flywheels.
 - **Memory and Long-Horizon Control:** enabling proactive context management, experience reuse, and reliable execution over complex multi-step tasks.
-- **Demonstration Learning and Evaluation:** using few-shot demonstrations, online evaluation, and benchmarks to expose failure modes and drive iterative agent improvement.
+- **Demonstration Learning:** adapting agents from a few human demonstrations to handle personalized and long-tail digital workflows.
+- **Agent Evaluation:** designing online evaluation protocols and benchmarks that expose failure modes and guide iterative improvement.
 
 <span class='anchor' id='news'></span>
 # 🔥 News
