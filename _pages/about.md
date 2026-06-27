@@ -184,7 +184,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 # About me
 
-I am a Ph.D. candidate in the Department of Control Science and Engineering at Zhejiang University (ZJU), where I have been since 2023, under the supervision of [Prof. Yong Liu](https://person.zju.edu.cn/yongliu) at the [Advanced Perception on Robotics and Intelligence Learning (APRIL) Lab](https://april.zju.edu.cn/). My research aims to build **universal digital agents** that can perceive, learn, and act in real digital environments.
+I am a Ph.D. candidate in the Department of Control Science and Engineering at Zhejiang University (ZJU), where I have been since 2023, under the supervision of [Prof. Yong Liu](https://person.zju.edu.cn/yongliu) and [Dr. Jiangning Zhang](https://zhangzjn.github.io/) at the [Advanced Perception on Robotics and Intelligence Learning (APRIL) Lab](https://april.zju.edu.cn/). My research aims to build **universal digital agents** that can perceive, learn, and act in real digital environments.
 
 <div class="profile-stats" markdown="1">
 
