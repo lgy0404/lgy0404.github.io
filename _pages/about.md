@@ -366,11 +366,11 @@ I am a Ph.D. candidate in the Department of Control Science and Engineering at Z
 # 📖 Education
 
 - 2025.09 - Present | <img src="./images/logos/zju-logo-1.png" class="edu-logo" alt="Zhejiang University logo"> Ph.D. Student, Zhejiang University, Hangzhou  
-  Research focus: universal digital agents, agent post-training, memory, and long-horizon control.
+  Advisor: [Prof. Yong Liu](https://person.zju.edu.cn/yongliu).
 - 2023.06 - 2025.08 | <img src="./images/logos/zju-logo-1.png" class="edu-logo" alt="Zhejiang University logo"> M.S. Student, Zhejiang University, Hangzhou  
-  Research focus: LLM-powered agents and mobile GUI automation.
+  [Group of Networked Sensing and Control (NeSC)](http://nesc.zju.edu.cn/); Advisor: [Prof. Wenchao Meng](https://person.zju.edu.cn/wmeng).
 - 2019.09 - 2023.06 | <img src="./images/logos/cumt-logo.png" class="edu-logo edu-logo--cumt" alt="China University of Mining and Technology logo"> B.Eng. in Automatic Control, China University of Mining and Technology, Xuzhou  
-  Ranking: No.1/203 overall; National Scholarship recipient.
+  Advisor: [Prof. Wei Dai](https://faculty.cumt.edu.cn/DaiW/zh_CN/img/175786/list/%7B%7B:linkUrl%7D%7D); Ranking: No.1/203 overall; National Scholarship recipient.
 
 # 🏆 Honors & Awards
 
