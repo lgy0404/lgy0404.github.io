@@ -210,7 +210,6 @@ I am a Ph.D. candidate in the Department of Control Science and Engineering at Z
 - *2025.10*: Our survey, [LLM-Powered GUI Agents in Phone Automation](https://arxiv.org/abs/2504.19838), appears at TMLR.
 - *2025.04*: Released [LLM-Powered GUI Agents in Phone Automation: Surveying Progress and Prospects](https://arxiv.org/abs/2504.19838).
 - *2025.04*: Released [LearnAct: Few-Shot Mobile GUI Agent with a Unified Demonstration Benchmark](https://arxiv.org/abs/2504.13805).
-- *2024.08*: Joined vivo AI Lab as a research intern working on GUI-based digital agents.
 
 </div>
 
