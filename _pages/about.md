@@ -217,7 +217,7 @@ I aim to build **reliable mobile agents** that can connect language, vision, mem
 <span class='anchor' id='experiences'></span>
 # 💻 Experiences
 
-- 2026.08 - Present | <img src="./images/logos/kuaishou-icon.png" class="exp-logo exp-logo--kuaishou" alt="Kuaishou logo"> Kuaishou Technology  
+- 2025.08 - Present | <img src="./images/logos/kuaishou-icon.png" class="exp-logo exp-logo--kuaishou" alt="Kuaishou logo"> Kuaishou Technology  
   Research Intern on mobile GUI agents, annotation-free adaptation, and long-horizon context management.
 - 2024.08 - 2025.08 | <img src="./images/logos/vivo-logo.svg" class="exp-logo exp-logo--vivo" alt="vivo logo"> vivo AI Lab  
   Research Intern on Phone GUI Agents, few-shot demonstration learning, online evaluation, and memory-centric benchmarking.
