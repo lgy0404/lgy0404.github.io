@@ -184,7 +184,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 # About me
 
-I am a Ph.D. candidate in the Department of Control Science and Engineering at Zhejiang University (ZJU), where I have been since 2023, under the supervision of [Prof. Yong Liu](https://person.zju.edu.cn/yongliu), [Dr. Jiangning Zhang](https://zhangzjn.github.io/), and [Dr. Liang Liu](https://scholar.google.com/citations?user=Kkg3IPMAAAAJ&hl=en) at the [ZJU APRIL Lab](https://april.zju.edu.cn/). My research aims to build **universal digital agents** that can perceive, learn, and act in real digital environments.
+I am a Ph.D. candidate in the Department of Control Science and Engineering at Zhejiang University (ZJU), where I have been since 2023, under the supervision of [Prof. Yong Liu](https://person.zju.edu.cn/yongliu), [Dr. Jiangning Zhang](https://zhangzjn.github.io/), and [Dr. Liang Liu](https://scholar.google.com/citations?user=Kkg3IPMAAAAJ&hl=en) at the [ZJU APRIL Lab](https://april.zju.edu.cn/). My research focuses on building **universal digital agents** that learn from interaction, remember useful experience, and act reliably in real digital environments.
 
 <div class="profile-stats" markdown="1">
 
@@ -193,10 +193,10 @@ I am a Ph.D. candidate in the Department of Control Science and Engineering at Z
 </div>
 
 **Research Interests:**
-- **Universal Digital Agents:** perception, reasoning, memory, tool use, and action in digital environments.
-- **Agent Learning and Post-Training:** reinforcement learning, feedback-guided optimization, and self-evolving data flywheels.
-- **Memory and Long-Horizon Control:** proactive context management, experience reuse, and robust multi-step execution.
-- **Demonstration Learning and Agent Evaluation:** few-shot demonstrations, online evaluation, and benchmark-driven agent improvement.
+- **Universal Digital Agents:** integrating perception, reasoning, memory, tool use, and action across apps and software workflows.
+- **Agent Learning and Post-Training:** improving policies with reinforcement learning, hierarchical feedback, self-collected rollouts, and self-evolving data flywheels.
+- **Memory and Long-Horizon Control:** enabling proactive context management, experience reuse, and reliable execution over complex multi-step tasks.
+- **Demonstration Learning and Evaluation:** using few-shot demonstrations, online evaluation, and benchmarks to expose failure modes and drive iterative agent improvement.
 
 <span class='anchor' id='news'></span>
 # 🔥 News
