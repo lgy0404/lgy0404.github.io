@@ -120,7 +120,7 @@ def fetch_previous_author_data() -> dict[str, Any]:
     if not repo:
         raise RuntimeError("GITHUB_REPOSITORY is not set.")
 
-    url = f"https://raw.githubusercontent.com/{repo}/google-scholar-stats/gs_data.json"
+    url = f"https://raw.githubusercontent.com/{repo}/refs/heads/google-scholar-stats/gs_data.json"
     response = requests.get(url, timeout=20)
     if response.status_code != 200:
         raise RuntimeError(f"Failed to fetch previous gs_data.json: {response.status_code}")
