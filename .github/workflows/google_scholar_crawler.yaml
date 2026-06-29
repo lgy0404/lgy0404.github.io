@@ -1,6 +1,9 @@
 name: Get Citation Data
 
 on:
+  push:
+    branches:
+      - main
   workflow_dispatch:
   page_build:
   schedule:
