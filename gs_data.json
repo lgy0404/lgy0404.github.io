@@ -1,0 +1,93 @@
+{
+  "name": "Guangyi Liu",
+  "citedby": 375,
+  "first_author_citations": 107,
+  "first_author_repo_stars": 598,
+  "first_author_repo_stars_k": "0.6k",
+  "github_stars": 598,
+  "github_stars_k": "0.6k",
+  "updated": "2026-07-02T01:57:04.354538+00:00",
+  "publication_metrics": {
+    "mobileforge": {
+      "num_citations": 0,
+      "author_pub_id": null,
+      "title": "MobileForge"
+    },
+    "memgui_agent": {
+      "num_citations": 0,
+      "author_pub_id": null,
+      "title": "MemGUI-Agent"
+    },
+    "memgui_bench": {
+      "num_citations": 11,
+      "author_pub_id": null,
+      "title": "MemGUI-Bench"
+    },
+    "learnact": {
+      "num_citations": 36,
+      "author_pub_id": null,
+      "title": "LearnAct"
+    },
+    "phone_gui_survey": {
+      "num_citations": 60,
+      "author_pub_id": null,
+      "title": "LLM-Powered GUI Agents in Phone Automation"
+    },
+    "ui_r1": {
+      "num_citations": 195,
+      "author_pub_id": null,
+      "title": "UI-R1"
+    },
+    "a3": {
+      "num_citations": 42,
+      "author_pub_id": null,
+      "title": "A3"
+    },
+    "fedgui": {
+      "num_citations": 0,
+      "author_pub_id": null,
+      "title": "FedGUI"
+    },
+    "ui_copilot": {
+      "num_citations": 0,
+      "author_pub_id": null,
+      "title": "UI-Copilot"
+    },
+    "mas_bench": {
+      "num_citations": 4,
+      "author_pub_id": null,
+      "title": "MAS-Bench"
+    },
+    "fedmabench": {
+      "num_citations": 10,
+      "author_pub_id": null,
+      "title": "FedMABench"
+    },
+    "mobilea3gent": {
+      "num_citations": 13,
+      "author_pub_id": null,
+      "title": "MobileA3gent"
+    }
+  },
+  "publications": {},
+  "repo_metrics": {
+    "PhoneLLM/Awesome-LLM-Powered-Phone-GUI-Agents": {
+      "stargazers_count": 172
+    },
+    "lgy0404/MemGUI-Bench": {
+      "stargazers_count": 47
+    },
+    "kwai/MemGUI-Agent": {
+      "stargazers_count": 77
+    },
+    "kwai/MobileForge": {
+      "stargazers_count": 64
+    },
+    "lgy0404/LearnAct": {
+      "stargazers_count": 48
+    },
+    "lgy0404/d2l-2023": {
+      "stargazers_count": 190
+    }
+  }
+}
