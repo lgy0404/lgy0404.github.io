@@ -227,7 +227,7 @@ I am a Ph.D. candidate in the Department of Control Science and Engineering at Z
       <li>Identifies two bottlenecks in annotation-free mobile GUI adaptation and proposes MobileGym to unify target-app exploration, curriculum mining, rollout execution, and hierarchical evaluation.</li>
       <li>Proposes HiFPO to turn multi-attempt feedback and corrective hints into hint-contextualized step-level GRPO updates, yielding ForgeOwl-8B as the strongest open-data mobile GUI agent in our evaluation.</li>
     </ul>
-    <div class="paper-card__links"><a href="https://github.com/kwai/MobileForge"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/kwai/MobileForge?style=flat-square&logo=github&logoColor=black&labelColor=white&color=white&label=Stars&cacheSeconds=10" style="border: 1px solid #ccc; border-radius: 4px;"></a></div>
+    <div class="paper-card__links"><a href="https://github.com/kwai/MobileForge"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/kwai/MobileForge?style=flat-square&logo=github&logoColor=black&labelColor=white&color=white&label=Stars&cacheSeconds=10" style="border: 1px solid #ccc; border-radius: 4px;"></a> <a href="https://mp.weixin.qq.com/s/la86XLaDIwOB2mHHbl0oDQ"><img alt="Media coverage: 机器之心 (Synced China)" src="https://img.shields.io/badge/Media-%E6%9C%BA%E5%99%A8%E4%B9%8B%E5%BF%83%20%28Synced%20China%29-white?logo=wechat&style=flat-square&labelColor=white&cacheSeconds=10" style="border: 1px solid #ccc; border-radius: 4px;"></a></div>
   </div>
 </div>
 
@@ -247,7 +247,7 @@ I am a Ph.D. candidate in the Department of Control Science and Engineering at Z
       <li>Introduces MemGUI-Agent, an end-to-end long-horizon mobile GUI agent built on ConAct, which unifies history folding, UI memory, and self-describing step outputs within one policy.</li>
       <li>Constructs MemGUI-3K with 2,956 full ConAct-annotated trajectories and trains MemGUI-8B-SFT, achieving the best open-data 8B performance on MemGUI-Bench and generalizing to out-of-distribution MobileWorld.</li>
     </ul>
-    <div class="paper-card__links"><a href="https://github.com/kwai/MemGUI-Agent"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/kwai/MemGUI-Agent?style=flat-square&logo=github&logoColor=black&labelColor=white&color=white&label=Stars&cacheSeconds=10" style="border: 1px solid #ccc; border-radius: 4px;"></a></div>
+    <div class="paper-card__links"><a href="https://github.com/kwai/MemGUI-Agent"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/kwai/MemGUI-Agent?style=flat-square&logo=github&logoColor=black&labelColor=white&color=white&label=Stars&cacheSeconds=10" style="border: 1px solid #ccc; border-radius: 4px;"></a> <a href="https://mp.weixin.qq.com/s/6xtWMKsp0uvrsPUrhVXmTw"><img alt="Media coverage: 量子位 (QbitAI)" src="https://img.shields.io/badge/Media-%E9%87%8F%E5%AD%90%E4%BD%8D%20%28QbitAI%29-white?logo=wechat&style=flat-square&labelColor=white&cacheSeconds=10" style="border: 1px solid #ccc; border-radius: 4px;"></a></div>
   </div>
 </div>
 
