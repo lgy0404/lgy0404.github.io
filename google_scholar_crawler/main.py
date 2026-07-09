@@ -14,21 +14,29 @@ from scholarly import ProxyGenerator, scholarly
 
 INITIAL_DATA: dict[str, Any] = {
     "name": "Guangyi Liu",
-    "citedby": 375,
-    "first_author_citations": 107,
-    "first_author_repo_stars": 582,
+    "citedby": 403,
+    "first_author_citations": 115,
+    "first_author_repo_stars": 606,
     "first_author_repo_stars_k": "0.6k",
-    "github_stars": 582,
+    "github_stars": 606,
     "github_stars_k": "0.6k",
     "publication_metrics": {
-        "memgui_bench": {"num_citations": 11},
-        "learnact": {"num_citations": 36},
-        "phone_gui_survey": {"num_citations": 60},
-        "ui_r1": {"num_citations": 195},
-        "a3": {"num_citations": 42},
+        "memgui_bench": {"num_citations": 15},
+        "learnact": {"num_citations": 38},
+        "phone_gui_survey": {"num_citations": 62},
+        "ui_r1": {"num_citations": 208},
+        "a3": {"num_citations": 45},
         "mas_bench": {"num_citations": 4},
         "fedmabench": {"num_citations": 10},
-        "mobilea3gent": {"num_citations": 13},
+        "mobilea3gent": {"num_citations": 14},
+    },
+    "repo_metrics": {
+        "PhoneLLM/Awesome-LLM-Powered-Phone-GUI-Agents": {"stargazers_count": 173},
+        "lgy0404/MemGUI-Bench": {"stargazers_count": 46},
+        "kwai/MemGUI-Agent": {"stargazers_count": 82},
+        "kwai/MobileForge": {"stargazers_count": 66},
+        "lgy0404/LearnAct": {"stargazers_count": 48},
+        "lgy0404/d2l-2023": {"stargazers_count": 191},
     },
 }
 
@@ -43,26 +51,26 @@ SELECTED_PUBLICATIONS: dict[str, dict[str, Any]] = {
     },
     "memgui_bench": {
         "title_patterns": ["MemGUI-Bench"],
-        "fallback_citations": 11,
+        "fallback_citations": 15,
     },
     "learnact": {
         "title_patterns": ["LearnAct"],
-        "fallback_citations": 36,
+        "fallback_citations": 38,
     },
     "phone_gui_survey": {
         "title_patterns": [
             "LLM-Powered GUI Agents in Phone Automation",
             "Surveying Progress and Prospects",
         ],
-        "fallback_citations": 60,
+        "fallback_citations": 62,
     },
     "ui_r1": {
         "title_patterns": ["UI-R1", "Enhancing Efficient Action Prediction"],
-        "fallback_citations": 195,
+        "fallback_citations": 208,
     },
     "a3": {
         "title_patterns": ["A3", "Android Agent Arena"],
-        "fallback_citations": 42,
+        "fallback_citations": 45,
     },
     "fedgui": {
         "title_patterns": ["FedGUI"],
@@ -82,7 +90,7 @@ SELECTED_PUBLICATIONS: dict[str, dict[str, Any]] = {
     },
     "mobilea3gent": {
         "title_patterns": ["MobileA3gent"],
-        "fallback_citations": 13,
+        "fallback_citations": 14,
     },
 }
 
@@ -186,10 +194,17 @@ def build_publication_metrics(author: dict[str, Any], previous: dict[str, Any]) 
         pub_id, publication = match_publication(publications, spec["title_patterns"])
         previous_count = previous_metrics.get(slug, {}).get("num_citations")
         fallback_count = spec.get("fallback_citations", 0)
-        num_citations = int(previous_count if previous_count is not None else fallback_count)
+        num_citations = max(
+            int(previous_count if previous_count is not None else 0),
+            int(fallback_count),
+        )
 
         if publication:
-            num_citations = int(publication.get("num_citations", num_citations) or 0)
+            num_citations = max(
+                int(previous_count if previous_count is not None else 0),
+                int(publication.get("num_citations", num_citations) or 0),
+                int(fallback_count),
+            )
 
         metrics[slug] = {
             "num_citations": num_citations,
@@ -224,15 +239,15 @@ def add_github_stats(author: dict[str, Any], previous: dict[str, Any]) -> None:
     headers = github_headers()
     repo_metrics = {}
     previous_repo_metrics = previous.get("repo_metrics", {})
+    initial_repo_metrics = INITIAL_DATA.get("repo_metrics", {})
     first_author_repo_stars = 0
 
     for owner, repo in FIRST_AUTHOR_REPOS:
         full_name = f"{owner}/{repo}"
         stars = fetch_repo_stars(owner, repo, headers)
-        if stars is None:
-            stars = previous_repo_metrics.get(full_name, {}).get("stargazers_count")
-        if stars is None:
-            stars = 0
+        previous_stars = previous_repo_metrics.get(full_name, {}).get("stargazers_count")
+        initial_stars = initial_repo_metrics.get(full_name, {}).get("stargazers_count")
+        stars = max(int(value or 0) for value in (stars, previous_stars, initial_stars))
         repo_metrics[full_name] = {"stargazers_count": int(stars)}
         first_author_repo_stars += stars
 
@@ -267,6 +282,11 @@ def main() -> None:
         print(f"[fallback] using initial metrics because previous data is unavailable: {exc}")
         previous = INITIAL_DATA
 
+    author["citedby"] = max(
+        int(author.get("citedby", 0) or 0),
+        int(previous.get("citedby", 0) or 0),
+        int(INITIAL_DATA["citedby"]),
+    )
     author["updated"] = datetime.now(timezone.utc).isoformat()
     author["publications"] = publications_as_dict(author)
     author["publication_metrics"] = build_publication_metrics(author, previous)
