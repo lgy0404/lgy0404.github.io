@@ -197,6 +197,7 @@ I am a Ph.D. candidate in the Department of Control Science and Engineering at Z
 
 <div class="news-scroll" markdown="1">
 
+- *2026.07*: [MemGUI-Bench](https://lgy0404.github.io/MemGUI-Bench/) has been accepted to ACM MM 2026.
 - *2026.06*: Released [MobileForge](https://mobile-forge.github.io/), an annotation-free adaptation system for mobile GUI agents.
 - *2026.06*: Released [MemGUI-Agent](https://memgui-agent.github.io/), an end-to-end long-horizon mobile GUI agent with proactive context management.
 - *2026.05*: Recognized as a Silver Reviewer for ICML 2026.
@@ -254,7 +255,7 @@ I am a Ph.D. candidate in the Department of Control Science and Engineering at Z
 <div class="paper-card">
   <div class="paper-card__image">
     <div class="paper-card__thumb">
-      <span class="paper-card__badge paper-card__badge--venue">Preprint</span>
+      <span class="paper-card__badge paper-card__badge--venue">ACM MM 2026</span>
       <a href="https://arxiv.org/abs/2602.06075">
         <img src="./images/paper-images/memgui-bench-overview.png" alt="MemGUI-Bench overview" width="1200" height="622" loading="lazy" decoding="async">
       </a>
