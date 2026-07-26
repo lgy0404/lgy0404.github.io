@@ -14,29 +14,29 @@ from scholarly import ProxyGenerator, scholarly
 
 INITIAL_DATA: dict[str, Any] = {
     "name": "Guangyi Liu",
-    "citedby": 403,
-    "first_author_citations": 115,
-    "first_author_repo_stars": 606,
+    "citedby": 411,
+    "first_author_citations": 118,
+    "first_author_repo_stars": 622,
     "first_author_repo_stars_k": "0.6k",
-    "github_stars": 606,
+    "github_stars": 622,
     "github_stars_k": "0.6k",
     "publication_metrics": {
-        "memgui_bench": {"num_citations": 15},
-        "learnact": {"num_citations": 38},
+        "memgui_bench": {"num_citations": 16},
+        "learnact": {"num_citations": 40},
         "phone_gui_survey": {"num_citations": 62},
-        "ui_r1": {"num_citations": 208},
-        "a3": {"num_citations": 45},
-        "mas_bench": {"num_citations": 4},
-        "fedmabench": {"num_citations": 10},
+        "ui_r1": {"num_citations": 211},
+        "a3": {"num_citations": 46},
+        "mas_bench": {"num_citations": 5},
+        "fedmabench": {"num_citations": 12},
         "mobilea3gent": {"num_citations": 14},
     },
     "repo_metrics": {
-        "PhoneLLM/Awesome-LLM-Powered-Phone-GUI-Agents": {"stargazers_count": 173},
+        "PhoneLLM/Awesome-LLM-Powered-Phone-GUI-Agents": {"stargazers_count": 174},
         "lgy0404/MemGUI-Bench": {"stargazers_count": 46},
-        "kwai/MemGUI-Agent": {"stargazers_count": 82},
-        "kwai/MobileForge": {"stargazers_count": 66},
+        "kwai/MemGUI-Agent": {"stargazers_count": 85},
+        "kwai/MobileForge": {"stargazers_count": 75},
         "lgy0404/LearnAct": {"stargazers_count": 48},
-        "lgy0404/d2l-2023": {"stargazers_count": 191},
+        "lgy0404/d2l-2023": {"stargazers_count": 194},
     },
 }
 
@@ -51,11 +51,11 @@ SELECTED_PUBLICATIONS: dict[str, dict[str, Any]] = {
     },
     "memgui_bench": {
         "title_patterns": ["MemGUI-Bench"],
-        "fallback_citations": 15,
+        "fallback_citations": 16,
     },
     "learnact": {
         "title_patterns": ["LearnAct"],
-        "fallback_citations": 38,
+        "fallback_citations": 40,
     },
     "phone_gui_survey": {
         "title_patterns": [
@@ -66,11 +66,11 @@ SELECTED_PUBLICATIONS: dict[str, dict[str, Any]] = {
     },
     "ui_r1": {
         "title_patterns": ["UI-R1", "Enhancing Efficient Action Prediction"],
-        "fallback_citations": 208,
+        "fallback_citations": 211,
     },
     "a3": {
         "title_patterns": ["A3", "Android Agent Arena"],
-        "fallback_citations": 45,
+        "fallback_citations": 46,
     },
     "fedgui": {
         "title_patterns": ["FedGUI"],
@@ -82,11 +82,11 @@ SELECTED_PUBLICATIONS: dict[str, dict[str, Any]] = {
     },
     "mas_bench": {
         "title_patterns": ["MAS-Bench", "Shortcut-Augmented Hybrid Mobile GUI Agents"],
-        "fallback_citations": 4,
+        "fallback_citations": 5,
     },
     "fedmabench": {
         "title_patterns": ["FedMABench"],
-        "fallback_citations": 10,
+        "fallback_citations": 12,
     },
     "mobilea3gent": {
         "title_patterns": ["MobileA3gent"],
