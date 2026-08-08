@@ -228,7 +228,7 @@ I am a Ph.D. candidate in the Department of Control Science and Engineering at Z
       <li>Identifies two bottlenecks in annotation-free mobile GUI adaptation and proposes MobileGym to unify target-app exploration, curriculum mining, rollout execution, and hierarchical evaluation.</li>
       <li>Proposes HiFPO to turn multi-attempt feedback and corrective hints into hint-contextualized step-level GRPO updates, yielding ForgeOwl-8B as the strongest open-data mobile GUI agent in our evaluation.</li>
     </ul>
-    <div class="paper-card__links"><a href="https://github.com/kwai/MobileForge"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/kwai/MobileForge?style=flat-square&logo=github&logoColor=black&labelColor=white&color=white&label=Stars&cacheSeconds=10" style="border: 1px solid #ccc; border-radius: 4px;"></a> <a href="https://mp.weixin.qq.com/s/la86XLaDIwOB2mHHbl0oDQ"><img alt="Media coverage: 机器之心 (Synced China)" src="https://img.shields.io/badge/Media-%E6%9C%BA%E5%99%A8%E4%B9%8B%E5%BF%83%20%28Synced%20China%29-white?logo=wechat&style=flat-square&labelColor=white&cacheSeconds=10" style="border: 1px solid #ccc; border-radius: 4px;"></a></div>
+    <div class="paper-card__links"><a href="https://github.com/kwai/MobileForge"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/kwai/MobileForge?style=flat-square&logo=github&logoColor=black&labelColor=white&color=white&label=Stars&cacheSeconds=10" style="border: 1px solid #ccc; border-radius: 4px;"></a> <a href="https://scholar.google.com/citations?user=XqQp-fkAAAAJ&hl=zh-CN"><img alt="Google Scholar citations" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Flgy0404%2Flgy0404.github.io%2Frefs%2Fheads%2Fgoogle-scholar-stats%2Fgs_data.json&query=%24.publication_metrics.mobileforge.num_citations&label=Citations&color=white&logo=Google%20Scholar&style=flat-square&labelColor=white&cacheSeconds=10" style="border: 1px solid #ccc; border-radius: 4px;"></a> <a href="https://mp.weixin.qq.com/s/la86XLaDIwOB2mHHbl0oDQ"><img alt="Media coverage: 机器之心 (Synced China)" src="https://img.shields.io/badge/Media-%E6%9C%BA%E5%99%A8%E4%B9%8B%E5%BF%83%20%28Synced%20China%29-white?logo=wechat&style=flat-square&labelColor=white&cacheSeconds=10" style="border: 1px solid #ccc; border-radius: 4px;"></a></div>
   </div>
 </div>
 
@@ -333,7 +333,8 @@ I am a Ph.D. candidate in the Department of Control Science and Engineering at Z
 
 - [**UI-Copilot: Advancing Long-Horizon GUI Automation via Tool-Integrated Policy Optimization**](https://arxiv.org/abs/2604.13822) \
 <span style="font-size: 0.93em;"><img src="./images/logo-author.png" style="width: 1em; position: relative; top: -0.1em;"> Zhengxi Lu, Fei Tang, **<u>Guangyi Liu</u>**, Kaitao Song, Xu Tan, Jin Ma, Wenqi Zhang, Weiming Lu, Jun Xiao, Yueting Zhuang, and Yongliang Shen.</span>\
-<span style="font-size: 0.93em;"><img src="./images/logo-venue.png" style="width: 0.975em; position: relative; top: -0.115em;"> **ACL 2026 Main**</span>
+<span style="font-size: 0.93em;"><img src="./images/logo-venue.png" style="width: 0.975em; position: relative; top: -0.115em;"> **ACL 2026 Main**</span>\
+<a href="https://scholar.google.com/citations?user=XqQp-fkAAAAJ&hl=zh-CN"><img alt="Google Scholar citations" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Flgy0404%2Flgy0404.github.io%2Frefs%2Fheads%2Fgoogle-scholar-stats%2Fgs_data.json&query=%24.publication_metrics.ui_copilot.num_citations&label=Citations&color=white&logo=Google%20Scholar&style=flat-square&labelColor=white&cacheSeconds=10" style="border: 1px solid #ccc; border-radius: 4px;"></a>
 
 - [**MAS-Bench: A Unified Benchmark for Shortcut-Augmented Hybrid Mobile GUI Agents**](https://arxiv.org/abs/2509.06477) \
 <span style="font-size: 0.93em;"><img src="./images/logo-author.png" style="width: 1em; position: relative; top: -0.1em;"> Pengxiang Zhao, **<u>Guangyi Liu</u>**, Yaozhen Liang, Weiqing He, Zhengxi Lu, Yuehao Huang, Yaxuan Guo, Kexin Zhang, Hao Wang, Liang Liu, and Yong Liu.</span>\
@@ -353,7 +354,7 @@ I am a Ph.D. candidate in the Department of Control Science and Engineering at Z
 <span class='anchor' id='education'></span>
 # 📖 Education
 
-- 2025.09 - Present | <img src="./images/logos/zju-logo-1.png" class="edu-logo" alt="Zhejiang University logo"> Ph.D. Student, Zhejiang University, Hangzhou  
+- 2025.09 - 2028.06 (Expected) | <img src="./images/logos/zju-logo-1.png" class="edu-logo" alt="Zhejiang University logo"> Ph.D. Student, Zhejiang University, Hangzhou \
   Advisors: [Prof. Yong Liu](https://person.zju.edu.cn/yongliu), [Prof. Jiangning Zhang](https://zhangzjn.github.io/), and [Dr. Liang Liu](https://scholar.google.com/citations?user=Kkg3IPMAAAAJ&hl=en); [ZJU APRIL Lab](https://april.zju.edu.cn/).
 - 2023.06 - 2025.08 | <img src="./images/logos/zju-logo-1.png" class="edu-logo" alt="Zhejiang University logo"> M.S. Student, Zhejiang University, Hangzhou  
   Advisor: [Prof. Wenchao Meng](https://person.zju.edu.cn/wmeng); [ZJU NeSC Group](http://nesc.zju.edu.cn/).
@@ -363,7 +364,7 @@ I am a Ph.D. candidate in the Department of Control Science and Engineering at Z
 <span class='anchor' id='experiences'></span>
 # 💻 Experiences
 
-- 2025.08 - Present | <img src="./images/logos/kuaishou-icon.png" class="exp-logo exp-logo--kuaishou" alt="Kuaishou logo"> Kuaishou Technology  
+- 2025.08 - 2026.07 | <img src="./images/logos/kuaishou-icon.png" class="exp-logo exp-logo--kuaishou" alt="Kuaishou logo"> Kuaishou Technology, Hangzhou \
   Research Intern; Mentor: [Martin Li](https://scholar.google.com/citations?user=atSPcL8AAAAJ&hl=zh-CN).
 - 2024.08 - 2025.08 | <img src="./images/logos/vivo-logo.svg" class="exp-logo exp-logo--vivo" alt="vivo logo"> vivo AI Lab  
   Research Intern; Mentors: [Dr. Liang Liu](https://scholar.google.com/citations?user=Kkg3IPMAAAAJ&hl=en) and [Prof. Hongsheng Li](https://www.ee.cuhk.edu.hk/~hsli/).

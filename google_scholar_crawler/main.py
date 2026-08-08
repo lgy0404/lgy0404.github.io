@@ -14,21 +14,23 @@ from scholarly import ProxyGenerator, scholarly
 
 INITIAL_DATA: dict[str, Any] = {
     "name": "Guangyi Liu",
-    "citedby": 411,
-    "first_author_citations": 118,
+    "citedby": 415,
+    "first_author_citations": 122,
     "first_author_repo_stars": 622,
     "first_author_repo_stars_k": "0.6k",
     "github_stars": 622,
     "github_stars_k": "0.6k",
     "publication_metrics": {
-        "memgui_bench": {"num_citations": 16},
+        "mobileforge": {"num_citations": 1},
+        "memgui_bench": {"num_citations": 17},
         "learnact": {"num_citations": 40},
-        "phone_gui_survey": {"num_citations": 62},
-        "ui_r1": {"num_citations": 211},
-        "a3": {"num_citations": 46},
-        "mas_bench": {"num_citations": 5},
-        "fedmabench": {"num_citations": 12},
-        "mobilea3gent": {"num_citations": 14},
+        "phone_gui_survey": {"num_citations": 64},
+        "ui_r1": {"num_citations": 212},
+        "a3": {"num_citations": 45},
+        "ui_copilot": {"num_citations": 1},
+        "mas_bench": {"num_citations": 10},
+        "fedmabench": {"num_citations": 5},
+        "mobilea3gent": {"num_citations": 16},
     },
     "repo_metrics": {
         "PhoneLLM/Awesome-LLM-Powered-Phone-GUI-Agents": {"stargazers_count": 174},
@@ -43,7 +45,7 @@ INITIAL_DATA: dict[str, Any] = {
 SELECTED_PUBLICATIONS: dict[str, dict[str, Any]] = {
     "mobileforge": {
         "title_patterns": ["MobileForge"],
-        "fallback_citations": 0,
+        "fallback_citations": 1,
     },
     "memgui_agent": {
         "title_patterns": ["MemGUI-Agent"],
@@ -51,7 +53,7 @@ SELECTED_PUBLICATIONS: dict[str, dict[str, Any]] = {
     },
     "memgui_bench": {
         "title_patterns": ["MemGUI-Bench"],
-        "fallback_citations": 16,
+        "fallback_citations": 17,
     },
     "learnact": {
         "title_patterns": ["LearnAct"],
@@ -62,15 +64,15 @@ SELECTED_PUBLICATIONS: dict[str, dict[str, Any]] = {
             "LLM-Powered GUI Agents in Phone Automation",
             "Surveying Progress and Prospects",
         ],
-        "fallback_citations": 62,
+        "fallback_citations": 64,
     },
     "ui_r1": {
         "title_patterns": ["UI-R1", "Enhancing Efficient Action Prediction"],
-        "fallback_citations": 211,
+        "fallback_citations": 212,
     },
     "a3": {
         "title_patterns": ["A3", "Android Agent Arena"],
-        "fallback_citations": 46,
+        "fallback_citations": 45,
     },
     "fedgui": {
         "title_patterns": ["FedGUI"],
@@ -78,19 +80,19 @@ SELECTED_PUBLICATIONS: dict[str, dict[str, Any]] = {
     },
     "ui_copilot": {
         "title_patterns": ["UI-Copilot", "Tool-Integrated Policy Optimization"],
-        "fallback_citations": 0,
+        "fallback_citations": 1,
     },
     "mas_bench": {
         "title_patterns": ["MAS-Bench", "Shortcut-Augmented Hybrid Mobile GUI Agents"],
-        "fallback_citations": 5,
+        "fallback_citations": 10,
     },
     "fedmabench": {
         "title_patterns": ["FedMABench"],
-        "fallback_citations": 12,
+        "fallback_citations": 5,
     },
     "mobilea3gent": {
         "title_patterns": ["MobileA3gent"],
-        "fallback_citations": 14,
+        "fallback_citations": 16,
     },
 }
 
@@ -187,21 +189,15 @@ def match_publication(publications: dict[str, Any], patterns: list[str]) -> tupl
 
 def build_publication_metrics(author: dict[str, Any], previous: dict[str, Any]) -> dict[str, Any]:
     publications = publications_as_dict(author)
-    previous_metrics = previous.get("publication_metrics", {})
     metrics: dict[str, Any] = {}
 
     for slug, spec in SELECTED_PUBLICATIONS.items():
         pub_id, publication = match_publication(publications, spec["title_patterns"])
-        previous_count = previous_metrics.get(slug, {}).get("num_citations")
         fallback_count = spec.get("fallback_citations", 0)
-        num_citations = max(
-            int(previous_count if previous_count is not None else 0),
-            int(fallback_count),
-        )
+        num_citations = int(fallback_count)
 
         if publication:
             num_citations = max(
-                int(previous_count if previous_count is not None else 0),
                 int(publication.get("num_citations", num_citations) or 0),
                 int(fallback_count),
             )
