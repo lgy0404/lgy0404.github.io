@@ -14,23 +14,23 @@ from scholarly import ProxyGenerator, scholarly
 
 INITIAL_DATA: dict[str, Any] = {
     "name": "Guangyi Liu",
-    "citedby": 415,
-    "first_author_citations": 122,
+    "citedby": 434,
+    "first_author_citations": 127,
     "first_author_repo_stars": 622,
     "first_author_repo_stars_k": "0.6k",
     "github_stars": 622,
     "github_stars_k": "0.6k",
     "publication_metrics": {
-        "mobileforge": {"num_citations": 1},
-        "memgui_bench": {"num_citations": 17},
-        "learnact": {"num_citations": 40},
+        "mobileforge": {"num_citations": 2},
+        "memgui_bench": {"num_citations": 19},
+        "learnact": {"num_citations": 42},
         "phone_gui_survey": {"num_citations": 64},
-        "ui_r1": {"num_citations": 212},
-        "a3": {"num_citations": 45},
+        "ui_r1": {"num_citations": 223},
+        "a3": {"num_citations": 46},
         "ui_copilot": {"num_citations": 1},
         "mas_bench": {"num_citations": 10},
-        "fedmabench": {"num_citations": 5},
-        "mobilea3gent": {"num_citations": 16},
+        "fedmabench": {"num_citations": 6},
+        "mobilea3gent": {"num_citations": 17},
     },
     "repo_metrics": {
         "PhoneLLM/Awesome-LLM-Powered-Phone-GUI-Agents": {"stargazers_count": 174},
@@ -45,7 +45,7 @@ INITIAL_DATA: dict[str, Any] = {
 SELECTED_PUBLICATIONS: dict[str, dict[str, Any]] = {
     "mobileforge": {
         "title_patterns": ["MobileForge"],
-        "fallback_citations": 1,
+        "fallback_citations": 2,
     },
     "memgui_agent": {
         "title_patterns": ["MemGUI-Agent"],
@@ -53,11 +53,11 @@ SELECTED_PUBLICATIONS: dict[str, dict[str, Any]] = {
     },
     "memgui_bench": {
         "title_patterns": ["MemGUI-Bench"],
-        "fallback_citations": 17,
+        "fallback_citations": 19,
     },
     "learnact": {
         "title_patterns": ["LearnAct"],
-        "fallback_citations": 40,
+        "fallback_citations": 42,
     },
     "phone_gui_survey": {
         "title_patterns": [
@@ -68,11 +68,11 @@ SELECTED_PUBLICATIONS: dict[str, dict[str, Any]] = {
     },
     "ui_r1": {
         "title_patterns": ["UI-R1", "Enhancing Efficient Action Prediction"],
-        "fallback_citations": 212,
+        "fallback_citations": 223,
     },
     "a3": {
         "title_patterns": ["A3", "Android Agent Arena"],
-        "fallback_citations": 45,
+        "fallback_citations": 46,
     },
     "fedgui": {
         "title_patterns": ["FedGUI"],
@@ -88,11 +88,11 @@ SELECTED_PUBLICATIONS: dict[str, dict[str, Any]] = {
     },
     "fedmabench": {
         "title_patterns": ["FedMABench"],
-        "fallback_citations": 5,
+        "fallback_citations": 6,
     },
     "mobilea3gent": {
         "title_patterns": ["MobileA3gent"],
-        "fallback_citations": 16,
+        "fallback_citations": 17,
     },
 }
 
@@ -194,12 +194,17 @@ def build_publication_metrics(author: dict[str, Any], previous: dict[str, Any]) 
     for slug, spec in SELECTED_PUBLICATIONS.items():
         pub_id, publication = match_publication(publications, spec["title_patterns"])
         fallback_count = spec.get("fallback_citations", 0)
-        num_citations = int(fallback_count)
+        previous_count = (
+            previous.get("publication_metrics", {})
+            .get(slug, {})
+            .get("num_citations", 0)
+        )
+        num_citations = max(int(fallback_count), int(previous_count or 0))
 
         if publication:
             num_citations = max(
                 int(publication.get("num_citations", num_citations) or 0),
-                int(fallback_count),
+                num_citations,
             )
 
         metrics[slug] = {

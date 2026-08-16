@@ -117,3 +117,57 @@ a img[style*="border"] {
         box-shadow: 2.5px 2.5px 4px rgba(0, 0, 0, 0.12);
     }
 }
+
+.hf-download-badge {
+    display: inline-flex;
+    align-items: stretch;
+    height: 21px;
+    margin: 0 0.12rem 0.18rem 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.06);
+    color: #333 !important;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 19px;
+    text-decoration: none !important;
+    vertical-align: middle;
+    transition: box-shadow 0.2s ease;
+
+    &:hover,
+    &:focus {
+        box-shadow: 2.5px 2.5px 4px rgba(0, 0, 0, 0.12);
+        color: #333 !important;
+    }
+}
+
+.hf-download-badge__logo,
+.hf-download-badge__label,
+.hf-download-badge__value {
+    display: inline-flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.hf-download-badge__logo {
+    padding: 0 0.32rem;
+    background: #fff8d6;
+    font-size: 12px;
+}
+
+.hf-download-badge__label {
+    padding: 0 0.35rem;
+}
+
+.hf-download-badge__value {
+    min-width: 2.6em;
+    justify-content: center;
+    padding: 0 0.34rem;
+    border-left: 1px solid #ddd;
+    background: #fffbea;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+}

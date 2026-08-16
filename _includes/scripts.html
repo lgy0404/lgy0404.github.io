@@ -1,3 +1,9 @@
 <script src="assets/js/main.min.js"></script>
+{% if site.github.build_revision %}
+  {% assign hf_downloads_version = site.github.build_revision %}
+{% else %}
+  {% assign hf_downloads_version = site.time | date: '%s' %}
+{% endif %}
+<script src="{{ '/assets/js/hf-downloads.js' | relative_url }}?v={{ hf_downloads_version }}" defer></script>
 
 {% include analytics.html %}
