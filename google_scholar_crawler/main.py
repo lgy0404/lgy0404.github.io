@@ -4,6 +4,7 @@ import json
 import os
 import re
 import time
+from copy import deepcopy
 from datetime import datetime, timezone
 from decimal import Decimal, ROUND_HALF_UP
 from typing import Any
@@ -142,16 +143,25 @@ def fetch_author_data_with_retries(google_scholar_id: str, attempts: int = 5) ->
     for attempt in range(1, attempts + 1):
         try:
             proxy_generator = ProxyGenerator()
-            proxy_generator.FreeProxies()
-            scholarly.use_proxy(proxy_generator)
+            try:
+                if not proxy_generator.FreeProxies():
+                    raise RuntimeError("No working free proxy was found.")
+            except Exception as proxy_exc:
+                print(f"[scholarly] free proxies unavailable; trying a direct connection: {proxy_exc}")
+                proxy_generator = ProxyGenerator()
+            # Set both sessions so scholarly does not fetch another proxy list internally.
+            scholarly.use_proxy(proxy_generator, proxy_generator)
 
             author = scholarly.search_author_id(google_scholar_id)
             scholarly.fill(author, sections=["basics", "indices", "counts", "publications"])
+            if "citedby" not in author or not publications_as_dict(author):
+                raise ValueError("Scholar returned an incomplete author profile.")
             return author
         except Exception as exc:
             last_error = exc
             print(f"[scholarly] attempt {attempt}/{attempts} failed: {exc}")
-            time.sleep(min(5 * attempt, 20))
+            if attempt < attempts:
+                time.sleep(min(5 * attempt, 20))
     raise RuntimeError(f"scholarly failed after {attempts} attempts: {last_error}")
 
 
@@ -193,24 +203,18 @@ def build_publication_metrics(author: dict[str, Any], previous: dict[str, Any]) 
 
     for slug, spec in SELECTED_PUBLICATIONS.items():
         pub_id, publication = match_publication(publications, spec["title_patterns"])
-        fallback_count = spec.get("fallback_citations", 0)
-        previous_count = (
-            previous.get("publication_metrics", {})
-            .get(slug, {})
-            .get("num_citations", 0)
-        )
-        num_citations = max(int(fallback_count), int(previous_count or 0))
-
-        if publication:
-            num_citations = max(
-                int(publication.get("num_citations", num_citations) or 0),
-                num_citations,
-            )
+        previous_metric = previous.get("publication_metrics", {}).get(slug, {})
+        if publication is not None:
+            num_citations = int(publication.get("num_citations", 0) or 0)
+        else:
+            num_citations = int(previous_metric.get("num_citations", spec["fallback_citations"]) or 0)
+            print(f"::warning::No Scholar publication matched {slug}; retaining its previous count.")
 
         metrics[slug] = {
             "num_citations": num_citations,
-            "author_pub_id": pub_id,
+            "author_pub_id": pub_id if publication is not None else previous_metric.get("author_pub_id"),
             "title": publication_title(publication) if publication else spec["title_patterns"][0],
+            "data_source": "live" if publication is not None else "fallback",
         }
 
     return metrics
@@ -262,39 +266,39 @@ def add_github_stats(author: dict[str, Any], previous: dict[str, Any]) -> None:
     author["github_stars_k"] = author["first_author_repo_stars_k"]
 
 
-def load_author_data() -> dict[str, Any]:
+def load_author_data(previous: dict[str, Any]) -> dict[str, Any]:
     google_scholar_id = os.environ.get("GOOGLE_SCHOLAR_ID", "XqQp-fkAAAAJ")
     try:
-        return fetch_author_data_with_retries(google_scholar_id)
+        author = fetch_author_data_with_retries(google_scholar_id)
+        author["citedby"] = int(author["citedby"])
+        author["publications"] = publications_as_dict(author)
+        author["publication_metrics"] = build_publication_metrics(author, previous)
+        author["first_author_citations"] = sum(
+            int(author["publication_metrics"][slug]["num_citations"])
+            for slug in FIRST_AUTHOR_SLUGS
+        )
+        author["scholar_fetch_status"] = "live"
+        author["scholar_updated"] = datetime.now(timezone.utc).isoformat()
     except Exception as exc:
         print(f"[scholarly] giving up, fallback to previous gs_data.json. reason: {exc}")
-        try:
-            return fetch_previous_author_data()
-        except Exception as previous_exc:
-            print(f"[fallback] previous gs_data.json unavailable: {previous_exc}")
-            return dict(INITIAL_DATA)
+        print("::warning::Google Scholar fetch failed; citation counts have NOT been refreshed.")
+        # Preserve the snapshot, including manual corrections and its true fetch date.
+        author = deepcopy(previous)
+        author["scholar_fetch_status"] = "fallback"
+        author.setdefault("scholar_updated", None)
+    return author
 
 
 def main() -> None:
-    author = load_author_data()
     try:
         previous = fetch_previous_author_data() if os.environ.get("GITHUB_REPOSITORY") else INITIAL_DATA
     except Exception as exc:
         print(f"[fallback] using initial metrics because previous data is unavailable: {exc}")
         previous = INITIAL_DATA
 
-    author["citedby"] = max(
-        int(author.get("citedby", 0) or 0),
-        int(previous.get("citedby", 0) or 0),
-        int(INITIAL_DATA["citedby"]),
-    )
+    author = load_author_data(previous)
     author["updated"] = datetime.now(timezone.utc).isoformat()
     author["publications"] = publications_as_dict(author)
-    author["publication_metrics"] = build_publication_metrics(author, previous)
-    author["first_author_citations"] = sum(
-        int(author["publication_metrics"][slug]["num_citations"])
-        for slug in FIRST_AUTHOR_SLUGS
-    )
     add_github_stats(author, previous)
 
     os.makedirs("results", exist_ok=True)

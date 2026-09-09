@@ -1,2 +1,6 @@
 scholarly==1.7.11
+# Match Xiaoxi-Li1's compatible version; scholarly still passes proxies= to httpx.
+httpx==0.23.3
+# scholarly imports bibtexparser's v1 modules, which are absent in v2.
+bibtexparser==1.4.3
 requests>=2.28.0
