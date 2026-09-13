@@ -1,0 +1,423 @@
+{
+  "container_type": "Author",
+  "filled": [
+    "basics",
+    "publications",
+    "indices",
+    "counts"
+  ],
+  "scholar_id": "XqQp-fkAAAAJ",
+  "source": "AUTHOR_PROFILE_PAGE",
+  "name": "Guangyi Liu (刘广义)",
+  "url_picture": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=XqQp-fkAAAAJ&citpid=2",
+  "affiliation": "Zhejiang University",
+  "organization": 1118375729466322660,
+  "interests": [
+    "Language Agent",
+    "Digital Automation",
+    "Artificial Intelligence"
+  ],
+  "email_domain": "@zju.edu.cn",
+  "homepage": "https://lgy0404.github.io/",
+  "citedby": 479,
+  "publications": {
+    "XqQp-fkAAAAJ:MhiOAD_qIWkC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Ui-r1: Enhancing efficient action prediction of gui agents by reinforcement learning",
+        "pub_year": "2026",
+        "citation": "AAAI 2026, 2026"
+      },
+      "filled": false,
+      "author_pub_id": "XqQp-fkAAAAJ:MhiOAD_qIWkC",
+      "num_citations": 234,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15090337876295008168,4444144561320283504",
+      "cites_id": [
+        "15090337876295008168",
+        "4444144561320283504"
+      ]
+    },
+    "XqQp-fkAAAAJ:BzfGm06jWhQC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Llm-powered gui agents in phone automation: Surveying progress and prospects",
+        "pub_year": "2025",
+        "citation": "TMLR 2025, 2025"
+      },
+      "filled": false,
+      "author_pub_id": "XqQp-fkAAAAJ:BzfGm06jWhQC",
+      "num_citations": 74,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6050737529106194091,4922015009866419427,5571395667974009536",
+      "cites_id": [
+        "6050737529106194091",
+        "4922015009866419427",
+        "5571395667974009536"
+      ]
+    },
+    "XqQp-fkAAAAJ:zCSUwVk65WsC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "A3: Android agent arena for mobile gui agents",
+        "pub_year": "2025",
+        "citation": "ACL 2026 Findings, 2025"
+      },
+      "filled": false,
+      "author_pub_id": "XqQp-fkAAAAJ:zCSUwVk65WsC",
+      "num_citations": 50,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13794237435698928551",
+      "cites_id": [
+        "13794237435698928551"
+      ]
+    },
+    "XqQp-fkAAAAJ:U4n9YNQMCAIC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Learnact: Few-shot mobile gui agent with a unified demonstration benchmark",
+        "pub_year": "2025",
+        "citation": "ACL 2026 Findings, 2025"
+      },
+      "filled": false,
+      "author_pub_id": "XqQp-fkAAAAJ:U4n9YNQMCAIC",
+      "num_citations": 45,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6679288816351809229",
+      "cites_id": [
+        "6679288816351809229"
+      ]
+    },
+    "XqQp-fkAAAAJ:j7_hQOaDUrUC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "MemGUI-Bench: Benchmarking Memory of Mobile GUI Agents in Dynamic Environments",
+        "pub_year": "2026",
+        "citation": "ACM MM 2026, 2026"
+      },
+      "filled": false,
+      "author_pub_id": "XqQp-fkAAAAJ:j7_hQOaDUrUC",
+      "num_citations": 20,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17604234699666112827,6880181861836555417",
+      "cites_id": [
+        "17604234699666112827",
+        "6880181861836555417"
+      ]
+    },
+    "XqQp-fkAAAAJ:7Hz3ACDFbsoC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "MobileA3gent: Training Mobile GUI Agents Using Decentralized Self-Sourced Data from Diverse Users",
+        "pub_year": "2025",
+        "citation": "ACM MM 2026, 2025"
+      },
+      "filled": false,
+      "author_pub_id": "XqQp-fkAAAAJ:7Hz3ACDFbsoC",
+      "num_citations": 17,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10794877405588499537,10796259486820381126,12853932859862075208",
+      "cites_id": [
+        "10794877405588499537",
+        "10796259486820381126",
+        "12853932859862075208"
+      ]
+    },
+    "XqQp-fkAAAAJ:LdasjJ6CEcoC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "MAS-Bench: A Unified Benchmark for Shortcut-Augmented Hybrid Mobile GUI Agents",
+        "pub_year": "2025",
+        "citation": "ACL 2026 Main, 2025"
+      },
+      "filled": false,
+      "author_pub_id": "XqQp-fkAAAAJ:LdasjJ6CEcoC",
+      "num_citations": 11,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12497570914205976787,13434394562305193904",
+      "cites_id": [
+        "12497570914205976787",
+        "13434394562305193904"
+      ]
+    },
+    "XqQp-fkAAAAJ:3NQIlFlcGxIC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Iterative missing data imputation with model form adaptation and non-missing feature supervision",
+        "pub_year": "2026",
+        "citation": "NeurIPS 2025, 2026"
+      },
+      "filled": false,
+      "author_pub_id": "XqQp-fkAAAAJ:3NQIlFlcGxIC",
+      "num_citations": 10,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1338088203808237549",
+      "cites_id": [
+        "1338088203808237549"
+      ]
+    },
+    "XqQp-fkAAAAJ:IaI1MmNe2tcC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "FedMABench: Benchmarking Mobile GUI Agents on Decentralized Heterogeneous User Data",
+        "pub_year": "2025",
+        "citation": "EMNLP 2025 Main(Oral), 2025"
+      },
+      "filled": false,
+      "author_pub_id": "XqQp-fkAAAAJ:IaI1MmNe2tcC",
+      "num_citations": 7,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4859074859912844261",
+      "cites_id": [
+        "4859074859912844261"
+      ]
+    },
+    "XqQp-fkAAAAJ:L1USKYWJimsC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "MobileForge: Annotation-Free Adaptation for Mobile GUI Agents with Hierarchical Feedback-Guided Policy Optimization",
+        "pub_year": "2026",
+        "citation": "arXiv preprint arXiv:2606.19930, 2026"
+      },
+      "filled": false,
+      "author_pub_id": "XqQp-fkAAAAJ:L1USKYWJimsC",
+      "num_citations": 3,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4928745831098962462",
+      "cites_id": [
+        "4928745831098962462"
+      ]
+    },
+    "XqQp-fkAAAAJ:MpfHP-DdYjUC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Mixture of low rank adaptation with partial parameter sharing for time series forecasting",
+        "pub_year": "2025",
+        "citation": "arXiv preprint arXiv:2505.17872, 2025"
+      },
+      "filled": false,
+      "author_pub_id": "XqQp-fkAAAAJ:MpfHP-DdYjUC",
+      "num_citations": 3,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13233353559800531659",
+      "cites_id": [
+        "13233353559800531659"
+      ]
+    },
+    "XqQp-fkAAAAJ:jU7OWUQzBzMC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "MemGUI-Agent: An End-to-End Long-Horizon Mobile GUI Agent with Proactive Context Management",
+        "pub_year": "2026",
+        "citation": "arXiv preprint arXiv:2606.19926, 2026"
+      },
+      "filled": false,
+      "author_pub_id": "XqQp-fkAAAAJ:jU7OWUQzBzMC",
+      "num_citations": 1,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2172588834578870888",
+      "cites_id": [
+        "2172588834578870888"
+      ]
+    },
+    "XqQp-fkAAAAJ:wKETBy42zhYC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "FedGUI: Benchmarking Federated GUI Agents across Heterogeneous Platforms, Devices, and Operating Systems",
+        "pub_year": "2026",
+        "citation": "ACL 2026 Findings, 2026"
+      },
+      "filled": false,
+      "author_pub_id": "XqQp-fkAAAAJ:wKETBy42zhYC",
+      "num_citations": 1,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7830821768297813211",
+      "cites_id": [
+        "7830821768297813211"
+      ]
+    },
+    "XqQp-fkAAAAJ:PYBJJbyH-FwC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "UI-Copilot: Advancing Long-Horizon GUI Automation via Tool-Integrated Policy Optimization",
+        "pub_year": "2026",
+        "citation": "ACL 2026 Main, 2026"
+      },
+      "filled": false,
+      "author_pub_id": "XqQp-fkAAAAJ:PYBJJbyH-FwC",
+      "num_citations": 1,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16234782780520081921",
+      "cites_id": [
+        "16234782780520081921"
+      ]
+    },
+    "XqQp-fkAAAAJ:EUQCXRtRnyEC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Efficient HW/SW Co-design of FPGA Accelerator to Detect Anomaly Attacks in Smart Grids",
+        "pub_year": "2024",
+        "citation": "ISIE 2024(Oral), 2024"
+      },
+      "filled": false,
+      "author_pub_id": "XqQp-fkAAAAJ:EUQCXRtRnyEC",
+      "num_citations": 1,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16513972165585140029",
+      "cites_id": [
+        "16513972165585140029"
+      ]
+    },
+    "XqQp-fkAAAAJ:1taIhTC69MYC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "MobileWizard: A Data-Efficient GUI Agent with Structured Reasoning and Progressive Reinforcement Learning",
+        "citation": ""
+      },
+      "filled": false,
+      "author_pub_id": "XqQp-fkAAAAJ:1taIhTC69MYC",
+      "num_citations": 1,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2046889189531866288",
+      "cites_id": [
+        "2046889189531866288"
+      ]
+    },
+    "XqQp-fkAAAAJ:LPtt_HFRSbwC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "CUA-Universe: A Scalable and Dynamic Environment for Hybrid GUI+ CLI Agents",
+        "pub_year": "2026",
+        "citation": "arXiv preprint arXiv:2609.05374, 2026"
+      },
+      "filled": false,
+      "author_pub_id": "XqQp-fkAAAAJ:LPtt_HFRSbwC",
+      "num_citations": 0
+    },
+    "XqQp-fkAAAAJ:prdVHNxh-e8C": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "ExpAct: Building and Evolving Structural and Procedural Experience for Mobile GUI Agents",
+        "pub_year": "2026",
+        "citation": ""
+      },
+      "filled": false,
+      "author_pub_id": "XqQp-fkAAAAJ:prdVHNxh-e8C",
+      "num_citations": 0
+    }
+  },
+  "citedby5y": 479,
+  "hindex": 8,
+  "hindex5y": 8,
+  "i10index": 8,
+  "i10index5y": 8,
+  "cites_per_year": {
+    "2024": 9,
+    "2025": 130,
+    "2026": 338
+  },
+  "publication_metrics": {
+    "mobileforge": {
+      "num_citations": 3,
+      "author_pub_id": "XqQp-fkAAAAJ:L1USKYWJimsC",
+      "title": "MobileForge: Annotation-Free Adaptation for Mobile GUI Agents with Hierarchical Feedback-Guided Policy Optimization",
+      "data_source": "live"
+    },
+    "memgui_agent": {
+      "num_citations": 1,
+      "author_pub_id": "XqQp-fkAAAAJ:jU7OWUQzBzMC",
+      "title": "MemGUI-Agent: An End-to-End Long-Horizon Mobile GUI Agent with Proactive Context Management",
+      "data_source": "live"
+    },
+    "memgui_bench": {
+      "num_citations": 20,
+      "author_pub_id": "XqQp-fkAAAAJ:j7_hQOaDUrUC",
+      "title": "MemGUI-Bench: Benchmarking Memory of Mobile GUI Agents in Dynamic Environments",
+      "data_source": "live"
+    },
+    "learnact": {
+      "num_citations": 45,
+      "author_pub_id": "XqQp-fkAAAAJ:U4n9YNQMCAIC",
+      "title": "Learnact: Few-shot mobile gui agent with a unified demonstration benchmark",
+      "data_source": "live"
+    },
+    "phone_gui_survey": {
+      "num_citations": 74,
+      "author_pub_id": "XqQp-fkAAAAJ:BzfGm06jWhQC",
+      "title": "Llm-powered gui agents in phone automation: Surveying progress and prospects",
+      "data_source": "live"
+    },
+    "ui_r1": {
+      "num_citations": 234,
+      "author_pub_id": "XqQp-fkAAAAJ:MhiOAD_qIWkC",
+      "title": "Ui-r1: Enhancing efficient action prediction of gui agents by reinforcement learning",
+      "data_source": "live"
+    },
+    "a3": {
+      "num_citations": 50,
+      "author_pub_id": "XqQp-fkAAAAJ:zCSUwVk65WsC",
+      "title": "A3: Android agent arena for mobile gui agents",
+      "data_source": "live"
+    },
+    "fedgui": {
+      "num_citations": 1,
+      "author_pub_id": "XqQp-fkAAAAJ:wKETBy42zhYC",
+      "title": "FedGUI: Benchmarking Federated GUI Agents across Heterogeneous Platforms, Devices, and Operating Systems",
+      "data_source": "live"
+    },
+    "ui_copilot": {
+      "num_citations": 1,
+      "author_pub_id": "XqQp-fkAAAAJ:PYBJJbyH-FwC",
+      "title": "UI-Copilot: Advancing Long-Horizon GUI Automation via Tool-Integrated Policy Optimization",
+      "data_source": "live"
+    },
+    "mas_bench": {
+      "num_citations": 11,
+      "author_pub_id": "XqQp-fkAAAAJ:LdasjJ6CEcoC",
+      "title": "MAS-Bench: A Unified Benchmark for Shortcut-Augmented Hybrid Mobile GUI Agents",
+      "data_source": "live"
+    },
+    "fedmabench": {
+      "num_citations": 7,
+      "author_pub_id": "XqQp-fkAAAAJ:IaI1MmNe2tcC",
+      "title": "FedMABench: Benchmarking Mobile GUI Agents on Decentralized Heterogeneous User Data",
+      "data_source": "live"
+    },
+    "mobilea3gent": {
+      "num_citations": 17,
+      "author_pub_id": "XqQp-fkAAAAJ:7Hz3ACDFbsoC",
+      "title": "MobileA3gent: Training Mobile GUI Agents Using Decentralized Self-Sourced Data from Diverse Users",
+      "data_source": "live"
+    }
+  },
+  "first_author_citations": 143,
+  "scholar_fetch_status": "live",
+  "scholar_updated": "2026-09-13T01:32:31.588482+00:00",
+  "updated": "2026-09-13T01:32:31.588500+00:00",
+  "repo_metrics": {
+    "PhoneLLM/Awesome-LLM-Powered-Phone-GUI-Agents": {
+      "stargazers_count": 182
+    },
+    "lgy0404/MemGUI-Bench": {
+      "stargazers_count": 49
+    },
+    "kwai/MemGUI-Agent": {
+      "stargazers_count": 91
+    },
+    "kwai/MobileForge": {
+      "stargazers_count": 80
+    },
+    "lgy0404/LearnAct": {
+      "stargazers_count": 49
+    },
+    "lgy0404/d2l-2023": {
+      "stargazers_count": 200
+    }
+  },
+  "first_author_repo_stars": 651,
+  "first_author_repo_stars_k": "0.7k",
+  "github_stars": 651,
+  "github_stars_k": "0.7k"
+}
