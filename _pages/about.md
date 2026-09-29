@@ -198,7 +198,6 @@ I am a Ph.D. candidate in the Department of Control Science and Engineering at Z
 <div class="news-scroll" markdown="1">
 
 - *2026.07*: [MemGUI-Bench](https://lgy0404.github.io/MemGUI-Bench/) has been accepted to ACM MM 2026.
-- *2026.09.29*: [PaperWeekly](https://mp.weixin.qq.com/s/7kPCQFimJzAHXrgUdZEs_Q) reports on [MemGUI-Bench](https://lgy0404.github.io/MemGUI-Bench/) in “UI Agent会操作，却记不住：MemGUI-Bench揭开长程交互的‘记忆盲区’”。
 - *2026.06*: Released [MobileForge](https://mobile-forge.github.io/), an annotation-free adaptation system for mobile GUI agents.
 - *2026.06*: Released [MemGUI-Agent](https://memgui-agent.github.io/), an end-to-end long-horizon mobile GUI agent with proactive context management.
 - *2026.05*: Recognized as a Silver Reviewer for ICML 2026.
