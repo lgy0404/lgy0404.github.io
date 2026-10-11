@@ -189,7 +189,7 @@ I am a Ph.D. candidate in the Department of Control Science and Engineering at Z
 - *2026.06*: Our new work [MobileForge](https://mobile-forge.github.io/) was released, introducing annotation-free adaptation for mobile GUI agents.
 - *2026.06*: Our new work [MemGUI-Agent](https://memgui-agent.github.io/) was released, introducing an end-to-end long-horizon mobile GUI agent with proactive context management.
 - *2026.05*: Recognized as a Silver Reviewer for ICML 2026.
-- *2026.04*: [LearnAct](https://lgy0404.github.io/LearnAct/) was accepted by ACL 2026.
+- *2026.04*: [LearnAct](https://lgy0404.github.io/LearnAct/) was accepted by ACL 2026 (Findings).
 - *2026.02*: Our new work [MemGUI-Bench](https://lgy0404.github.io/MemGUI-Bench/) was released, introducing a memory-centric benchmark for mobile GUI agents in dynamic environments.
 - *2025.10*: Our survey [LLM-Powered GUI Agents in Phone Automation](https://arxiv.org/abs/2504.19838) was published in TMLR.
 - *2025.04*: Our survey [LLM-Powered GUI Agents in Phone Automation: Surveying Progress and Prospects](https://arxiv.org/abs/2504.19838) was released.
@@ -281,7 +281,7 @@ I am a Ph.D. candidate in the Department of Control Science and Engineering at Z
 <div class="paper-card">
   <div class="paper-card__image">
     <div class="paper-card__thumb">
-      <span class="paper-card__badge paper-card__badge--venue">ACL 2026</span>
+      <span class="paper-card__badge paper-card__badge--venue">ACL 2026 Findings</span>
       <a href="https://arxiv.org/abs/2504.13805">
         <img src="./images/paper-images/learnact-teaser.png" alt="LearnAct teaser" width="1200" height="468" loading="lazy" decoding="async">
       </a>
@@ -289,8 +289,8 @@ I am a Ph.D. candidate in the Department of Control Science and Engineering at Z
   </div>
   <div class="paper-card__content">
     <p class="paper-card__title"><a href="https://arxiv.org/abs/2504.13805"><strong>LearnAct: Few-Shot Mobile GUI Agent with a Unified Demonstration Benchmark</strong></a></p>
-    <div class="paper-card__meta"><img src="./images/logo-author.png" style="width: 1em; position: relative; top: -0.1em;"> <strong><u>Guangyi Liu</u></strong>, Pengxiang Zhao, Liang Liu, Zhiming Chen, Yuxiang Chai, <span class="author-more"><input type="checkbox" id="author-more-3" class="author-toggle"><label for="author-more-3" class="more-label">4 More Authors</label><label for="author-more-3" class="author-rest"> Shuai Ren, Hao Wang, Shibo He, and Wenchao Meng.</label></span></div>
-    <div class="paper-card__venue"><img src="./images/logo-venue.png" style="width: 0.975em; position: relative; top: -0.115em;"> <strong>ACL 2026</strong></div>
+    <div class="paper-card__meta"><img src="./images/logo-author.png" style="width: 1em; position: relative; top: -0.1em;"> <strong><u>Guangyi Liu</u></strong>, Pengxiang Zhao, Liang Liu, Zhiming Chen, Yuxiang Chai, <span class="author-more"><input type="checkbox" id="author-more-3" class="author-toggle"><label for="author-more-3" class="more-label">9 More Authors</label><label for="author-more-3" class="author-rest"> Siheng Chen, Yaozhen Liang, WenHao Wang, Zhengxi Lu, Shuai Ren, Hao Wang, Shibo He, Yong Liu, and Wenchao Meng.</label></span></div>
+    <div class="paper-card__venue"><img src="./images/logo-venue.png" style="width: 0.975em; position: relative; top: -0.115em;"> <strong>ACL 2026 Findings</strong></div>
     <ul class="paper-card__highlights">
       <li>Introduces LearnGUI with 2,252 offline tasks and 101 online tasks for demonstration-based learning.</li>
       <li>Designs DemoParser, KnowSeeker, and ActExecutor to extract, retrieve, and execute with human demonstration knowledge.</li>
