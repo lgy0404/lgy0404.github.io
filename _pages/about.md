@@ -190,11 +190,8 @@ I am a Ph.D. candidate in the Department of Control Science and Engineering at Z
 - *2026.06*: Our new work [MemGUI-Agent](https://memgui-agent.github.io/) was released, introducing an end-to-end long-horizon mobile GUI agent with proactive context management.
 - *2026.05*: Recognized as a Silver Reviewer for ICML 2026.
 - *2026.04*: [LearnAct](https://lgy0404.github.io/LearnAct/) was accepted by ACL 2026.
-- *2026.04*: Four co-authored papers were accepted by ACL 2026: [UI-Copilot](https://arxiv.org/abs/2604.13822) and [MAS-Bench](https://arxiv.org/abs/2509.06477) (Main), [A3](https://openreview.net/forum?id=zE2tVigoub) and [FedGUI](https://arxiv.org/abs/2604.14956) (Findings).
 - *2026.02*: Our new work [MemGUI-Bench](https://lgy0404.github.io/MemGUI-Bench/) was released, introducing a memory-centric benchmark for mobile GUI agents in dynamic environments.
-- *2025.11*: One co-authored paper, [UI-R1](https://ojs.aaai.org/index.php/AAAI/article/view/38816), was accepted by AAAI 2026.
 - *2025.10*: Our survey [LLM-Powered GUI Agents in Phone Automation](https://arxiv.org/abs/2504.19838) was published in TMLR.
-- *2025.08*: One co-authored paper, [FedMABench](https://aclanthology.org/2025.emnlp-main.1341/), was accepted by EMNLP 2025 (Main, Oral).
 - *2025.04*: Our survey [LLM-Powered GUI Agents in Phone Automation: Surveying Progress and Prospects](https://arxiv.org/abs/2504.19838) was released.
 - *2025.04*: Our new work [LearnAct](https://arxiv.org/abs/2504.13805) was released, introducing a few-shot mobile GUI agent with a unified demonstration benchmark.
 
