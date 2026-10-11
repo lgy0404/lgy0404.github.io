@@ -15,69 +15,77 @@ from scholarly import ProxyGenerator, scholarly
 
 INITIAL_DATA: dict[str, Any] = {
     "name": "Guangyi Liu",
-    "citedby": 434,
-    "first_author_citations": 127,
-    "first_author_repo_stars": 622,
-    "first_author_repo_stars_k": "0.6k",
-    "github_stars": 622,
-    "github_stars_k": "0.6k",
+    "citedby": 524,
+    "first_author_citations": 158,
+    "first_author_repo_stars": 1480,
+    "first_author_repo_stars_k": "1.5k",
+    "github_stars": 1480,
+    "github_stars_k": "1.5k",
     "publication_metrics": {
-        "mobileforge": {"num_citations": 2},
-        "memgui_bench": {"num_citations": 19},
-        "learnact": {"num_citations": 42},
-        "phone_gui_survey": {"num_citations": 64},
-        "ui_r1": {"num_citations": 223},
-        "a3": {"num_citations": 46},
+        "nanomuse": {"num_citations": 0},
+        "mobileforge": {"num_citations": 5},
+        "memgui_agent": {"num_citations": 3},
+        "memgui_bench": {"num_citations": 22},
+        "learnact": {"num_citations": 48},
+        "phone_gui_survey": {"num_citations": 80},
+        "ui_r1": {"num_citations": 247},
+        "a3": {"num_citations": 55},
+        "fedgui": {"num_citations": 2},
         "ui_copilot": {"num_citations": 1},
-        "mas_bench": {"num_citations": 10},
-        "fedmabench": {"num_citations": 6},
-        "mobilea3gent": {"num_citations": 17},
+        "mas_bench": {"num_citations": 16},
+        "fedmabench": {"num_citations": 10},
+        "mobilea3gent": {"num_citations": 19},
     },
     "repo_metrics": {
-        "PhoneLLM/Awesome-LLM-Powered-Phone-GUI-Agents": {"stargazers_count": 174},
-        "lgy0404/MemGUI-Bench": {"stargazers_count": 46},
-        "kwai/MemGUI-Agent": {"stargazers_count": 85},
-        "kwai/MobileForge": {"stargazers_count": 75},
-        "lgy0404/LearnAct": {"stargazers_count": 48},
-        "lgy0404/d2l-2023": {"stargazers_count": 194},
+        "nano-muse/nanoMuse": {"stargazers_count": 818},
+        "PhoneLLM/Awesome-LLM-Powered-Phone-GUI-Agents": {"stargazers_count": 185},
+        "lgy0404/MemGUI-Bench": {"stargazers_count": 50},
+        "kwai/MemGUI-Agent": {"stargazers_count": 93},
+        "kwai/MobileForge": {"stargazers_count": 82},
+        "lgy0404/LearnAct": {"stargazers_count": 49},
+        "lgy0404/d2l-2023": {"stargazers_count": 203},
     },
 }
 
 SELECTED_PUBLICATIONS: dict[str, dict[str, Any]] = {
+    "nanomuse": {
+        "title_patterns": ["nanoMuse"],
+        "fallback_citations": 0,
+    },
     "mobileforge": {
         "title_patterns": ["MobileForge"],
-        "fallback_citations": 2,
+        "fallback_citations": 5,
     },
     "memgui_agent": {
         "title_patterns": ["MemGUI-Agent"],
-        "fallback_citations": 0,
+        "fallback_citations": 3,
     },
     "memgui_bench": {
         "title_patterns": ["MemGUI-Bench"],
-        "fallback_citations": 19,
+        "fallback_citations": 22,
     },
     "learnact": {
         "title_patterns": ["LearnAct"],
-        "fallback_citations": 42,
+        "fallback_citations": 48,
     },
     "phone_gui_survey": {
         "title_patterns": [
             "LLM-Powered GUI Agents in Phone Automation",
             "Surveying Progress and Prospects",
         ],
-        "fallback_citations": 64,
+        "fallback_citations": 80,
     },
     "ui_r1": {
         "title_patterns": ["UI-R1", "Enhancing Efficient Action Prediction"],
-        "fallback_citations": 223,
+        "fallback_citations": 247,
     },
     "a3": {
         "title_patterns": ["A3", "Android Agent Arena"],
-        "fallback_citations": 46,
+        "fallback_citations": 55,
     },
     "fedgui": {
         "title_patterns": ["FedGUI"],
-        "fallback_citations": 0,
+        "fallback_citations": 2,
     },
     "ui_copilot": {
         "title_patterns": ["UI-Copilot", "Tool-Integrated Policy Optimization"],
@@ -85,19 +93,20 @@ SELECTED_PUBLICATIONS: dict[str, dict[str, Any]] = {
     },
     "mas_bench": {
         "title_patterns": ["MAS-Bench", "Shortcut-Augmented Hybrid Mobile GUI Agents"],
-        "fallback_citations": 10,
+        "fallback_citations": 16,
     },
     "fedmabench": {
         "title_patterns": ["FedMABench"],
-        "fallback_citations": 6,
+        "fallback_citations": 10,
     },
     "mobilea3gent": {
         "title_patterns": ["MobileA3gent"],
-        "fallback_citations": 17,
+        "fallback_citations": 19,
     },
 }
 
 FIRST_AUTHOR_SLUGS = [
+    "nanomuse",
     "mobileforge",
     "memgui_agent",
     "memgui_bench",
@@ -106,6 +115,7 @@ FIRST_AUTHOR_SLUGS = [
 ]
 
 FIRST_AUTHOR_REPOS = [
+    ("nano-muse", "nanoMuse"),
     ("PhoneLLM", "Awesome-LLM-Powered-Phone-GUI-Agents"),
     ("lgy0404", "MemGUI-Bench"),
     ("kwai", "MemGUI-Agent"),

@@ -29,6 +29,30 @@ def live_profile():
 
 
 class CitationTests(unittest.TestCase):
+    def test_nanomuse_is_tracked_as_first_author_work(self):
+        self.assertIn("nanomuse", crawler.SELECTED_PUBLICATIONS)
+        self.assertIn("nanomuse", crawler.FIRST_AUTHOR_SLUGS)
+        self.assertIn(("nano-muse", "nanoMuse"), crawler.FIRST_AUTHOR_REPOS)
+        self.assertIn("nanomuse", crawler.INITIAL_DATA["publication_metrics"])
+        self.assertIn("nano-muse/nanoMuse", crawler.INITIAL_DATA["repo_metrics"])
+
+    def test_initial_data_is_internally_consistent(self):
+        metrics = crawler.INITIAL_DATA["publication_metrics"]
+        self.assertEqual(set(metrics), set(crawler.SELECTED_PUBLICATIONS))
+        self.assertEqual(
+            crawler.INITIAL_DATA["first_author_citations"],
+            sum(metrics[slug]["num_citations"] for slug in crawler.FIRST_AUTHOR_SLUGS),
+        )
+        for slug, spec in crawler.SELECTED_PUBLICATIONS.items():
+            self.assertEqual(spec["fallback_citations"], metrics[slug]["num_citations"], slug)
+        repo_metrics = crawler.INITIAL_DATA["repo_metrics"]
+        self.assertEqual(set(repo_metrics), {f"{owner}/{repo}" for owner, repo in crawler.FIRST_AUTHOR_REPOS})
+        stars = sum(item["stargazers_count"] for item in repo_metrics.values())
+        self.assertEqual(crawler.INITIAL_DATA["first_author_repo_stars"], stars)
+        self.assertEqual(crawler.INITIAL_DATA["github_stars"], stars)
+        self.assertEqual(crawler.INITIAL_DATA["first_author_repo_stars_k"], crawler.format_stars_k(stars))
+        self.assertEqual(crawler.INITIAL_DATA["github_stars_k"], crawler.format_stars_k(stars))
+
     def test_scholarly_httpx_compatibility(self):
         self.assertEqual(httpx.__version__, "0.23.3")
         with httpx.Client(proxies={}):
@@ -40,8 +64,9 @@ class CitationTests(unittest.TestCase):
         with patch.object(crawler, "fetch_author_data_with_retries", return_value=live_profile()):
             author = crawler.load_author_data(previous)
         self.assertEqual(author["citedby"], 100)
-        self.assertEqual(author["first_author_citations"], 4)
+        self.assertEqual(author["first_author_citations"], 5)
         self.assertEqual(author["publication_metrics"]["phone_gui_survey"]["num_citations"], 1)
+        self.assertEqual(author["publication_metrics"]["nanomuse"]["num_citations"], 1)
         self.assertEqual(author["publication_metrics"]["memgui_agent"]["num_citations"], 0)
         self.assertEqual(author["scholar_fetch_status"], "live")
         self.assertIsNotNone(author["scholar_updated"])
@@ -134,7 +159,7 @@ class CitationTests(unittest.TestCase):
                 data = json.loads(Path("results/gs_data.json").read_text())
                 badge = json.loads(Path("results/gs_data_shieldsio.json").read_text())
                 self.assertEqual(badge["message"], "100")
-                self.assertEqual(data["first_author_citations"], 4)
+                self.assertEqual(data["first_author_citations"], 5)
                 self.assertEqual(set(data["publication_metrics"]), set(crawler.SELECTED_PUBLICATIONS))
                 self.assertEqual(data["scholar_fetch_status"], "live")
                 stars.assert_called_once()
