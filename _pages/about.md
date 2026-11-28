@@ -184,6 +184,7 @@ I am a Ph.D. candidate in the Department of Control Science and Engineering at Z
 <span class='anchor' id='news'></span>
 # 🔥 News
 
+- *2026.11*: &nbsp;🎤 I gave a talk at [SEE Conf 2026](https://seeconf.antgroup.com/#agenda), sharing the system architecture and algorithms behind nanoMuse, our open-source personal agent.
 - *2026.10*: &nbsp;🔥🔥 Our new work [nanoMuse](https://arxiv.org/abs/2610.08699) was released, an open-source personal agent for every device you own ([code](https://github.com/nano-muse/nanoMuse), 800+ GitHub stars). Featured as [🤗 HF Daily Paper #3](https://huggingface.co/papers/2610.08699)!
 - *2026.07*: &nbsp;🎉🎉 [MemGUI-Bench](https://lgy0404.github.io/MemGUI-Bench/) was accepted by ACM MM 2026.
 - *2026.06*: Our new work [MobileForge](https://mobile-forge.github.io/) was released, introducing annotation-free adaptation for mobile GUI agents.
